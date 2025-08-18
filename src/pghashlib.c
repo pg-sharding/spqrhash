@@ -40,35 +40,19 @@ struct Int64HashDesc {
 };
 
 static const struct StrHashDesc string_hash_list[] = {
-	{ 7, "lookup2",		hlib_lookup2_hash, 3923095 },
-#ifdef WORDS_BIGENDIAN
-	{ 7, "lookup3",		hlib_lookup3_hashbig, 0 },
-#else
-	{ 7, "lookup3",		hlib_lookup3_hashlittle, 0 },
-#endif
-	{ 9, "lookup3le",	hlib_lookup3_hashlittle, 0 },
-	{ 9, "lookup3be",	hlib_lookup3_hashbig,	0 },
-	{ 9, "siphash24",	hlib_siphash24, 0 },
 	{ 7, "murmur3",		hlib_murmur3, 0 },
 	{ 6, "city64",		hlib_cityhash64, 0 },
 	{ 7, "city128",		hlib_cityhash128, 0 },
-	{ 6, "spooky",		hlib_spookyhash, 0 },
-	{ 7, "pgsql84",		hlib_pgsql84, 0 },
-	{ 3, "md5",		hlib_md5, 0 },
-	{ 5, "crc32",		hlib_crc32, 0 },
 	{ 0 },
 };
 
 static const struct Int32HashDesc int32_hash_list[] = {
-	{ 6, "wang32",		hlib_wang32 },
-	{ 10, "wang32mult",	hlib_wang32mult },
-	{ 7, "jenkins",		hlib_int32_jenkins },
+	{ 7, "murmur3",		hlib_murmur3_int32 },
 	{ 0 },
 };
 
 static const struct Int64HashDesc int64_hash_list[] = {
-	{ 6, "wang64",		hlib_int64_wang },
-	{ 10, "wang64to32",	hlib_int64to32_wang },
+	{ 7, "murmur3",		hlib_murmur3_int64 },
 	{ 0 },
 };
 
@@ -110,7 +94,7 @@ find_int32_hash(const char *name, unsigned nlen)
 	memcpy(buf, name, nlen);
 
 	for (desc = int32_hash_list; desc->namelen; desc++) {
-		if (desc->namelen == nlen && !memcmp(desc->name, name, nlen))
+		if (desc->namelen == nlen && memcmp(desc->name, name, nlen))
 			return desc;
 	}
 	return NULL;
@@ -128,7 +112,7 @@ find_int64_hash(const char *name, unsigned nlen)
 	memcpy(buf, name, nlen);
 
 	for (desc = int64_hash_list; desc->namelen; desc++) {
-		if (desc->namelen == nlen && !memcmp(desc->name, name, nlen))
+		if (desc->namelen == nlen && memcmp(desc->name, name, nlen))
 			return desc;
 	}
 	return NULL;

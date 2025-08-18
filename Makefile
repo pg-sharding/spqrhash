@@ -9,9 +9,7 @@ DISTNAME = pghashlib-$(EXT_VERSION)
 
 # module description
 MODULE_big = hashlib
-SRCS = src/pghashlib.c src/crc32.c src/lookup2.c src/lookup3.c \
-       src/inthash.c src/murmur3.c src/pgsql84.c src/city.c \
-       src/spooky.c src/md5.c src/siphash.c
+SRCS = src/pghashlib.c src/murmur3.c src/city.c 
 OBJS = $(SRCS:.c=.o)
 EXTENSION = $(MODULE_big)
 

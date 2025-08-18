@@ -39,28 +39,15 @@ typedef uint32_t (*hlib_int32_hash_fn)(uint32_t data);
 typedef uint64_t (*hlib_int64_hash_fn)(uint64_t data);
 
 /* string hashes */
-void hlib_crc32(const void *data, size_t len, uint64_t *io);
-void hlib_lookup2_hash(const void *data, size_t len, uint64_t *io);
-void hlib_lookup3_hashlittle(const void *data, size_t len, uint64_t *io);
-void hlib_lookup3_hashbig(const void *data, size_t len, uint64_t *io);
-void hlib_pgsql84(const void *data, size_t len, uint64_t *io);
 void hlib_murmur3(const void *data, size_t len, uint64_t *io);
 
 void hlib_cityhash64(const void *data, size_t len, uint64_t *io);
 void hlib_cityhash128(const void *data, size_t len, uint64_t *io);
-void hlib_spookyhash(const void *data, size_t len, uint64_t *io);
-void hlib_md5(const void *data, size_t len, uint64_t *io);
-void hlib_siphash24(const void *data, size_t len, uint64_t *io);
 
 /* integer hashes */
-uint32_t hlib_int32_jenkins(uint32_t data);
-uint64_t hlib_int64_jenkins(uint64_t data);
-uint32_t hlib_wang32(uint32_t data);
-uint32_t hlib_wang32mult(uint32_t data);
-uint64_t hlib_int64_wang(uint64_t data);
-uint64_t hlib_int64to32_wang(uint64_t data);
+uint32_t hlib_murmur3_int32(uint32_t data);
+uint64_t hlib_murmur3_int64(uint64_t data);
 
-/* SQL function */
 Datum pg_hash_string(PG_FUNCTION_ARGS);
 Datum pg_hash64_string(PG_FUNCTION_ARGS);
 Datum pg_hash128_string(PG_FUNCTION_ARGS);
