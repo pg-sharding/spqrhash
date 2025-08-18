@@ -20,8 +20,8 @@ REGRESS_OPTS = --inputdir=test
 
 # different vars for extension and plain module
 
-Regress_noext = test_init_noext test_hash
-Regress_ext   = test_init_ext   test_hash
+Regress_noext = test_init_noext test_int8_murmur
+Regress_ext   = test_init_ext   test_int8_murmur
 
 Data_noext = sql/hashlib.sql sql/uninstall_hashlib.sql
 Data_ext = sql/hashlib--1.0.sql sql/hashlib--unpackaged--1.0.sql \
