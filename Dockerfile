@@ -32,7 +32,7 @@ RUN echo 'build-user ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
 USER build-user
 WORKDIR /home/build-user
 
-RUN sudo make install
+RUN make clean && sudo make install
 RUN sudo chmod 777 -R /home/build-user
 
 ENTRYPOINT ["./test/run_tests.sh"]
