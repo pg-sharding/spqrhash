@@ -1,0 +1,27 @@
+name: tests
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  regress:
+    name: regress
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        os-version: ['jammy', 'noble']
+        version: ['13', '14', '15', '16', '17']
+
+    steps:
+
+      - name: Check out code
+        uses: actions/checkout@v5
+
+      - name: Run tests
+        run: |
+            make pg_version=${{ matrix.version }} codename=${{ matrix.os-version }} regress
+
