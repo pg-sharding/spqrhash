@@ -1,7 +1,7 @@
 ARG codename=jammy
 FROM ubuntu:${codename}
 
-ARG POSTGRES_VERSION=16
+ARG POSTGRES_VERSION=15
 
 ENV DEBIAN_FRONTEND=noninteractive
 ENV TZ=Israel
@@ -17,7 +17,7 @@ RUN install -d /usr/share/postgresql-common/pgdg && \
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     sudo postgresql-server-dev-${POSTGRES_VERSION} postgresql-${POSTGRES_VERSION} \
-    gcc g++ make docutils-common
+    gcc g++ make python3-docutils
 
 ENV PATH=$PATH:"/usr/lib/postgresql/${POSTGRES_VERSION}/lib/pgxs/src/test/regress:/home/build-user/pgbin/lib/postgresql/pgxs/src/test/regress"
 
@@ -33,6 +33,6 @@ USER build-user
 WORKDIR /home/build-user
 
 RUN sudo make install
-RUN chmod 777 -R /home/build-user
+RUN sudo chmod 777 -R /home/build-user
 
 ENTRYPOINT ["./test/run_tests.sh"]

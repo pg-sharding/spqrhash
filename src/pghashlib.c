@@ -94,7 +94,7 @@ find_int32_hash(const char *name, unsigned nlen)
 	memcpy(buf, name, nlen);
 
 	for (desc = int32_hash_list; desc->namelen; desc++) {
-		if (desc->namelen == nlen && memcmp(desc->name, name, nlen))
+		if (desc->namelen == nlen && !memcmp(desc->name, name, nlen))
 			return desc;
 	}
 	return NULL;
@@ -112,7 +112,7 @@ find_int64_hash(const char *name, unsigned nlen)
 	memcpy(buf, name, nlen);
 
 	for (desc = int64_hash_list; desc->namelen; desc++) {
-		if (desc->namelen == nlen && memcmp(desc->name, name, nlen))
+		if (desc->namelen == nlen && !memcmp(desc->name, name, nlen))
 			return desc;
 	}
 	return NULL;
@@ -310,6 +310,6 @@ pg_hash_int64(PG_FUNCTION_ARGS)
 		err_nohash(hashname);
 	PG_FREE_IF_COPY(hashname, 1);
 
-	PG_RETURN_INT64(desc->hash(data));
+	PG_RETURN_INT64(desc->hash((uint64_t)(data)));
 }
 

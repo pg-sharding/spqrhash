@@ -9,6 +9,11 @@
 
 #include "pghashlib.h"
 
+
+const int ENCODING_BYTES_BIG = 10;
+const int ENCODING_BYTES = 8;
+const uint64_t BOUND = 1UL << 56;
+
 //-----------------------------------------------------------------------------
 // Platform-specific functions and macros
 
@@ -104,7 +109,7 @@ uint32_t hlib_murmur3_int32(uint32_t input_data)
 int put_uvarint(uint8_t *buf, uint64_t n) {
 	int i = 0;
 	while (n >= 0x80) {
-		buf[i] = (unsigned char)(n) | 0x80;
+		buf[i] = (uint8_t)(n) | 0x80;
 		n >>= 7;
 		i++;
 	}
@@ -114,17 +119,15 @@ int put_uvarint(uint8_t *buf, uint64_t n) {
 
 uint64_t hlib_murmur3_int64(uint64_t input_data)
 {
-	 const uint64_t BOUND = 1 << 56;
-	 const int ENCODING_BYTES_BIG = 10;
-     const int ENCODING_BYTES;
 	 int sz = ENCODING_BYTES;
-	 if (input_data > BOUND) {
+	 if (input_data >= BOUND) {
 		sz = ENCODING_BYTES_BIG;
 	 } 
 	 uint8_t *key;
 	 key = alloca(sz * sizeof *key);
-	 put_uvarint(key, input_data);
 	 size_t len = sz;
+	 memset(key, 0, len);
+	 put_uvarint(key, input_data);
 	 uint64_t io[MAX_IO_VALUES];
 	 memset(io, 0, sizeof(io));
 	 hlib_murmur3(key, len, io);
