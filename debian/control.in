@@ -5,10 +5,8 @@ Maintainer: Yury Frolov <ein-krebs@yandex-team.ru>
 Build-Depends: debhelper (>= 7.0.50~), python-docutils, postgresql-server-dev-all
 Standards-Version: 3.9.1
 
-Package: postgresql-hashlib-PGVERSION
+Package: postgresql-spqrhash-PGVERSION
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, postgresql-PGVERSION
-Breaks: postgresql-PGVERSION-hashlib
-Replaces: postgresql-PGVERSION-hashlib
 Description: SPQR hash functions for PostgreSQL
 
