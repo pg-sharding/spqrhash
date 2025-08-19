@@ -59,3 +59,4 @@ dkms.conf
 regression.diffs
 
 *.bc
+.vscode
