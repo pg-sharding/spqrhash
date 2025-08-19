@@ -72,3 +72,7 @@ debclean: clean
 tgz:
 	git archive --prefix=$(DISTNAME)/ HEAD | gzip -9 > $(DISTNAME).tar.gz
 
+pg_version?=16
+regress:
+	docker build . --tag pg_hash:1.0 --build-arg POSTGRES_VERSION=$(pg_version) && docker run pg_hash:1.0 | tee logs.out
+
