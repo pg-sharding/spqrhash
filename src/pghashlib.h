@@ -35,24 +35,15 @@
 
 /* hash function signatures */
 typedef void     (*hlib_str_hash_fn)(const void *data, size_t len, uint64_t *io);
-typedef uint32_t (*hlib_int32_hash_fn)(uint32_t data);
 typedef uint64_t (*hlib_int64_hash_fn)(uint64_t data);
 
 /* string hashes */
 void hlib_murmur3(const void *data, size_t len, uint64_t *io);
 
-void hlib_cityhash64(const void *data, size_t len, uint64_t *io);
-void hlib_cityhash128(const void *data, size_t len, uint64_t *io);
-
 /* integer hashes */
-uint32_t hlib_murmur3_int32(uint32_t data);
 uint64_t hlib_murmur3_int64(uint64_t data);
 
-Datum pg_hash_string(PG_FUNCTION_ARGS);
 Datum pg_hash64_string(PG_FUNCTION_ARGS);
-Datum pg_hash128_string(PG_FUNCTION_ARGS);
-Datum pg_hash_int32(PG_FUNCTION_ARGS);
-Datum pg_hash_int32from64(PG_FUNCTION_ARGS);
 Datum pg_hash_int64(PG_FUNCTION_ARGS);
 
 #endif

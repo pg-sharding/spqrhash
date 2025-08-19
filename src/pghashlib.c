@@ -27,12 +27,6 @@ struct StrHashDesc {
 	uint64_t initval;
 };
 
-struct Int32HashDesc {
-	int namelen;
-	const char name[HASHNAMELEN];
-	hlib_int32_hash_fn hash;
-};
-
 struct Int64HashDesc {
 	int namelen;
 	const char name[HASHNAMELEN];
@@ -41,13 +35,6 @@ struct Int64HashDesc {
 
 static const struct StrHashDesc string_hash_list[] = {
 	{ 7, "murmur3",		hlib_murmur3, 0 },
-	{ 6, "city64",		hlib_cityhash64, 0 },
-	{ 7, "city128",		hlib_cityhash128, 0 },
-	{ 0 },
-};
-
-static const struct Int32HashDesc int32_hash_list[] = {
-	{ 7, "murmur3",		hlib_murmur3_int32 },
 	{ 0 },
 };
 
@@ -77,24 +64,6 @@ find_string_hash(const char *name, unsigned nlen)
 		if (name[0] != desc->name[0])
 			continue;
 		if (memcmp(desc->name, name, nlen) == 0)
-			return desc;
-	}
-	return NULL;
-}
-
-static const struct Int32HashDesc *
-find_int32_hash(const char *name, unsigned nlen)
-{
-	const struct Int32HashDesc *desc;
-	char buf[HASHNAMELEN];
-
-	if (nlen >= HASHNAMELEN)
-		return NULL;
-	memset(buf, 0, sizeof(buf));
-	memcpy(buf, name, nlen);
-
-	for (desc = int32_hash_list; desc->namelen; desc++) {
-		if (desc->namelen == nlen && !memcmp(desc->name, name, nlen))
 			return desc;
 	}
 	return NULL;
@@ -133,44 +102,6 @@ err_nohash(text *hashname)
 /*
  * Public functions
  */
-
-/* hash_string(bytea, text [, int4]) returns int4 */
-Datum
-pg_hash_string(PG_FUNCTION_ARGS)
-{
-	struct varlena *data;
-	text *hashname = PG_GETARG_TEXT_PP(1);
-	const struct StrHashDesc *desc;
-	uint64_t io[MAX_IO_VALUES];
-
-	memset(io, 0, sizeof(io));
-
-	/* request aligned data on weird architectures */
-#ifdef HLIB_UNALIGNED_READ_OK
-	data = PG_GETARG_VARLENA_PP(0);
-#else
-	data = PG_GETARG_VARLENA_P(0);
-#endif
-
-	/* load hash */
-	desc = find_string_hash(VARDATA_ANY(hashname), VARSIZE_ANY_EXHDR(hashname));
-	if (desc == NULL)
-		err_nohash(hashname);
-
-	/* decide initval */
-	if (PG_NARGS() >= 3)
-		io[0] = PG_GETARG_INT32(2);
-	else
-		io[0] = desc->initval;
-
-	/* do hash */
-	desc->hash(VARDATA_ANY(data), VARSIZE_ANY_EXHDR(data), io);
-
-	PG_FREE_IF_COPY(data, 0);
-	PG_FREE_IF_COPY(hashname, 1);
-
-	PG_RETURN_INT32(io[0]);
-}
 
 /* hash64_string(bytea, text [, int8 [, int8]]) returns int8 */
 Datum
@@ -212,90 +143,9 @@ pg_hash64_string(PG_FUNCTION_ARGS)
 	PG_RETURN_INT64(io[0]);
 }
 
-/* hash128_string(bytea, text [, int8 [, int8]]) returns bytea */
-Datum
-pg_hash128_string(PG_FUNCTION_ARGS)
-{
-	struct varlena *data;
-	text *hashname = PG_GETARG_TEXT_PP(1);
-	const struct StrHashDesc *desc;
-	uint64_t io[MAX_IO_VALUES];
-	bytea *res;
-
-	memset(io, 0, sizeof(io));
-
-	/* request aligned data on weird architectures */
-#ifdef HLIB_UNALIGNED_READ_OK
-	data = PG_GETARG_VARLENA_PP(0);
-#else
-	data = PG_GETARG_VARLENA_P(0);
-#endif
-
-	/* load hash */
-	desc = find_string_hash(VARDATA_ANY(hashname), VARSIZE_ANY_EXHDR(hashname));
-	if (desc == NULL)
-		err_nohash(hashname);
-
-	/* decide initval */
-	if (PG_NARGS() > 2)
-		io[0] = PG_GETARG_INT64(2);
-	if (PG_NARGS() > 3)
-		io[1] = PG_GETARG_INT64(3);
-
-	/* do hash */
-	desc->hash(VARDATA_ANY(data), VARSIZE_ANY_EXHDR(data), io);
-
-	PG_FREE_IF_COPY(data, 0);
-	PG_FREE_IF_COPY(hashname, 1);
-
-	/* always output little-endian */
-	io[0] = htole64(io[0]);
-	io[1] = htole64(io[1]);
-
-	res = palloc(VARHDRSZ + 16);
-	SET_VARSIZE(res, VARHDRSZ + 16);
-	memcpy(VARDATA(res), io, 16);
-
-	PG_RETURN_BYTEA_P(res);
-}
-
 /*
  * Integer hashing
  */
-
-/* hash_int4(int4, text) returns int4 */
-Datum
-pg_hash_int32(PG_FUNCTION_ARGS)
-{
-	int32 data = PG_GETARG_INT32(0);
-	text *hashname = PG_GETARG_TEXT_PP(1);
-	const struct Int32HashDesc *desc;
-
-	desc = find_int32_hash(VARDATA_ANY(hashname), VARSIZE_ANY_EXHDR(hashname));
-	if (desc == NULL)
-		err_nohash(hashname);
-
-	PG_FREE_IF_COPY(hashname, 1);
-
-	PG_RETURN_INT32(desc->hash(data));
-}
-
-/* hash_int4(int8, text) returns int4 */
-Datum
-pg_hash_int32from64(PG_FUNCTION_ARGS)
-{
-	uint64_t data = PG_GETARG_INT64(0);
-	text *hashname = PG_GETARG_TEXT_PP(1);
-	const struct Int32HashDesc *desc;
-
-	desc = find_int32_hash(VARDATA_ANY(hashname), VARSIZE_ANY_EXHDR(hashname));
-	if (desc == NULL)
-		err_nohash(hashname);
-	PG_FREE_IF_COPY(hashname, 1);
-
-	data = ((data >> 32) ^ data) & 0xFFFFFFFF;
-	PG_RETURN_INT32(desc->hash(data));
-}
 
 /* hash_int8(int8, text) returns int8 */
 Datum

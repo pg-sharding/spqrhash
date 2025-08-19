@@ -95,18 +95,8 @@ void hlib_murmur3(const void *key, size_t len, uint64_t *io)
 	 io[0] = h1;
 }
 
-uint32_t hlib_murmur3_int32(uint32_t input_data)
-{
-	 void *key = &input_data;
-	 size_t len = sizeof(uint32_t);
-	 uint64_t io[MAX_IO_VALUES];
-	 memset(io, 0, sizeof(io));
-	 hlib_murmur3(key, len, io);
-	 return io[0];
-}
-
 /* Copied from go encoding/binary PutUVarInt func */
-int put_uvarint(uint8_t *buf, uint64_t n) {
+static int put_uvarint(uint8_t *buf, uint64_t n) {
 	int i = 0;
 	while (n >= 0x80) {
 		buf[i] = (uint8_t)(n) | 0x80;
@@ -119,16 +109,17 @@ int put_uvarint(uint8_t *buf, uint64_t n) {
 
 uint64_t hlib_murmur3_int64(uint64_t input_data)
 {
+	 size_t len;
+	 uint8_t *key;
+	 uint64_t io[MAX_IO_VALUES];
 	 int sz = ENCODING_BYTES;
 	 if (input_data >= BOUND) {
 		sz = ENCODING_BYTES_BIG;
-	 } 
-	 uint8_t *key;
+	 }
 	 key = alloca(sz * sizeof *key);
-	 size_t len = sz;
+	 len = sz;
 	 memset(key, 0, len);
 	 put_uvarint(key, input_data);
-	 uint64_t io[MAX_IO_VALUES];
 	 memset(io, 0, sizeof(io));
 	 hlib_murmur3(key, len, io);
 	 return (uint64_t)(uint32_t)io[0];

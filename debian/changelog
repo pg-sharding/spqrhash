@@ -1,12 +1,5 @@
-pghashlib (1.1-1) unstable; urgency=low
+pg-hash (1.0) unstable; urgency=medium
 
-  * v1.1
+  * Initial release
 
- -- Marko Kreen <markokr@gmail.com>  Thu, 03 Jan 2013 18:27:50 +0200
-
-pghashlib (1.0-1) unstable; urgency=low
-
-  * v1.0
-
- -- Marko Kreen <marko.kreen@skype.net>  Mon, 09 Jul 2012 18:42:48 +0300
-
+ -- Yury Frolov <ein-krebs@yandex-team.ru>  Tue, 19 Aug 2025 12:12:01 +0000

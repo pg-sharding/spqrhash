@@ -9,7 +9,7 @@ DISTNAME = pghashlib-$(EXT_VERSION)
 
 # module description
 MODULE_big = hashlib
-SRCS = src/pghashlib.c src/murmur3.c src/city.c 
+SRCS = src/pghashlib.c src/murmur3.c
 OBJS = $(SRCS:.c=.o)
 EXTENSION = $(MODULE_big)
 
@@ -24,9 +24,7 @@ Regress_noext = test_init_noext test_int8_murmur test_string_murmur
 Regress_ext   = test_init_ext   test_int8_murmur test_string_murmur
 
 Data_noext = sql/hashlib.sql sql/uninstall_hashlib.sql
-Data_ext = sql/hashlib--1.0.sql sql/hashlib--unpackaged--1.0.sql \
-	   sql/hashlib--1.1.sql sql/hashlib--unpackaged--1.1.sql \
-	   sql/hashlib--1.0--1.1.sql
+Data_ext = sql/hashlib--1.0.sql sql/hashlib--unpackaged--1.0.sql
 
 # Work around PGXS deficiencies - switch variables based on
 # whether extensions are supported.
