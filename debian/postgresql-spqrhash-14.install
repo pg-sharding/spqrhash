@@ -1,2 +1,2 @@
-usr/lib/postgresql/14/lib/hashlib.so
-usr/share/postgresql/14/contrib/hashlib.sql
+usr/lib/postgresql/14/lib/spqrhash.so
+usr/share/postgresql/14/contrib/spqrhash.sql

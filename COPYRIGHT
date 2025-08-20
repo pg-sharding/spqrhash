@@ -11,8 +11,8 @@ Files under PostgreSQL License:
 
 - crc32.c
 - pgsql84.c
-- pghashlib.c
-- pghashlib.h
+- pgspqrhash.c
+- pgspqrhash.h
 
 Files under MIT license:
 

@@ -1,3 +1,3 @@
 
-CREATE EXTENSION hashlib;
+CREATE EXTENSION spqrhash;
 

@@ -1,7 +1,7 @@
-pghashlib
+pgspqrhash
 =========
 
-The goal of pghashlib is to provide stable hashes for PostgeSQL,
+The goal of pgspqrhash is to provide stable hashes for PostgeSQL,
 "stable" in the sense that their implementation does not change,
 they are independent from PostgeSQL version.
 
@@ -19,7 +19,7 @@ You need PostgreSQL developent environment.  Then simply::
 
   $ make
   $ make install
-  $ psql -d ... -c "create extension hashlib"
+  $ psql -d ... -c "create extension spqrhash"
 
 
 Functions

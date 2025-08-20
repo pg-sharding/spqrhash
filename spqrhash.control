@@ -1,6 +1,6 @@
-# hashlib extension
+# spqrhash extension
 comment = 'Stable hash functions'
 default_version = '1.0'
-module_pathname = '$libdir/hashlib'
+module_pathname = '$libdir/spqrhash'
 relocatable = true
 superuser = false

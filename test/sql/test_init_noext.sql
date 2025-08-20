@@ -1,4 +1,4 @@
 
 \set ECHO none
-\i sql/hashlib.sql
+\i sql/spqrhash.sql
 

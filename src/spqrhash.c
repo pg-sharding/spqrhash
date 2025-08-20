@@ -1,5 +1,5 @@
 
-#include "pghashlib.h"
+#include "spqrhash.h"
 
 #include <access/htup_details.h>
 

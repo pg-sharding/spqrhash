@@ -1,21 +1,21 @@
 CREATE OR REPLACE FUNCTION hash64_string(text, text) RETURNS int8
-	AS '$libdir/hashlib', 'pg_hash64_string' LANGUAGE C IMMUTABLE STRICT;
+	AS '$libdir/spqrhash', 'pg_hash64_string' LANGUAGE C IMMUTABLE STRICT;
 
 CREATE OR REPLACE FUNCTION hash64_string(bytea, text) RETURNS int8
-	AS '$libdir/hashlib', 'pg_hash64_string' LANGUAGE C IMMUTABLE STRICT;
+	AS '$libdir/spqrhash', 'pg_hash64_string' LANGUAGE C IMMUTABLE STRICT;
 
 CREATE OR REPLACE FUNCTION hash64_string(text, text, int8) RETURNS int8
-	AS '$libdir/hashlib', 'pg_hash64_string' LANGUAGE C IMMUTABLE STRICT;
+	AS '$libdir/spqrhash', 'pg_hash64_string' LANGUAGE C IMMUTABLE STRICT;
 
 CREATE OR REPLACE FUNCTION hash64_string(bytea, text, int8) RETURNS int8
-	AS '$libdir/hashlib', 'pg_hash64_string' LANGUAGE C IMMUTABLE STRICT;
+	AS '$libdir/spqrhash', 'pg_hash64_string' LANGUAGE C IMMUTABLE STRICT;
 
 CREATE OR REPLACE FUNCTION hash64_string(text, text, int8, int8) RETURNS int8
-	AS '$libdir/hashlib', 'pg_hash64_string' LANGUAGE C IMMUTABLE STRICT;
+	AS '$libdir/spqrhash', 'pg_hash64_string' LANGUAGE C IMMUTABLE STRICT;
 
 CREATE OR REPLACE FUNCTION hash64_string(bytea, text, int8, int8) RETURNS int8
-	AS '$libdir/hashlib', 'pg_hash64_string' LANGUAGE C IMMUTABLE STRICT;
+	AS '$libdir/spqrhash', 'pg_hash64_string' LANGUAGE C IMMUTABLE STRICT;
 
 CREATE OR REPLACE FUNCTION hash_int8(int8, text) RETURNS int8
-	AS '$libdir/hashlib', 'pg_hash_int64' LANGUAGE C IMMUTABLE STRICT;
+	AS '$libdir/spqrhash', 'pg_hash_int64' LANGUAGE C IMMUTABLE STRICT;
 

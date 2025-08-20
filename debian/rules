@@ -13,7 +13,7 @@ include /usr/share/postgresql-common/pgxs_debian_control.mk
 
 override_dh_auto_clean:
 	for v in $$($(PG_BUILDEXT) supported-versions . ) ; do \
-		rm -rf debian/postgresql-hashlib-$${v}; \
+		rm -rf debian/postgresql-spqrhash-$${v}; \
 	done
 	dh_auto_clean -- clean || exit 0
 
@@ -32,7 +32,7 @@ override_dh_auto_install:
 
 .PHONY: orig realclean
 PKGVERS = $(shell dpkg-parsechangelog | awk -F '[:-]' '/^Version:/ { print substr($$2, 2) }')
-srcpkg = pghashlib_$(PKGVERS)
+srcpkg = pgspqrhash_$(PKGVERS)
 srctar = $(srcpkg).orig.tar.gz
 dst = ext/$(srcpkg)
 orig:
@@ -46,6 +46,6 @@ orig:
 realclean:
 	rm -rf debian/tmp debian/*.log debian/*.substvars
 	rm -f debian/control-stamp debian/files
-	for v in `cat debian/pgversions`; do rm -rf debian/postgresql-hashlib-$${v}; done
+	for v in `cat debian/pgversions`; do rm -rf debian/postgresql-spqrhash-$${v}; done
 	grep-dctrl -vP PGVERSION debian/control.in > debian/control
 

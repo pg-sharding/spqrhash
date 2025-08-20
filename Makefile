@@ -3,18 +3,18 @@ PG_CONFIG = pg_config
 RST2HTML = rst2html
 
 # load version
-include hashlib.control
+include spqrhash.control
 EXT_VERSION = $(patsubst '%',%,$(default_version))
-DISTNAME = pghashlib-$(EXT_VERSION)
+DISTNAME = spqrhash-$(EXT_VERSION)
 
 # module description
-MODULE_big = hashlib
-SRCS = src/pghashlib.c src/murmur3.c
+MODULE_big = spqrhash
+SRCS = src/spqrhash.c src/murmur3.c
 OBJS = $(SRCS:.c=.o)
 EXTENSION = $(MODULE_big)
 
-DOCS = hashlib.html
-EXTRA_CLEAN = hashlib.html
+DOCS = spqrhash.html
+EXTRA_CLEAN = spqrhash.html
 
 REGRESS_OPTS = --inputdir=test
 
@@ -23,8 +23,8 @@ REGRESS_OPTS = --inputdir=test
 Regress_noext = test_init_noext test_int8_murmur test_string_murmur
 Regress_ext   = test_init_ext   test_int8_murmur test_string_murmur
 
-Data_noext = sql/hashlib.sql sql/uninstall_hashlib.sql
-Data_ext = sql/hashlib--1.0.sql sql/hashlib--unpackaged--1.0.sql
+Data_noext = sql/spqrhash.sql sql/uninstall_spqrhash.sql
+Data_ext = sql/spqrhash--1.0.sql sql/spqrhash--unpackaged--1.0.sql
 
 # Work around PGXS deficiencies - switch variables based on
 # whether extensions are supported.
@@ -52,9 +52,9 @@ tags:
 %.s: %.c
 	$(CC) -S -fverbose-asm -o - $< $(CFLAGS) $(CPPFLAGS) | cleanasm > $@
 
-html: hashlib.html
+html: spqrhash.html
 
-hashlib.html: README.rst
+spqrhash.html: README.rst
 	$(RST2HTML) $< > $@
 
 deb:
@@ -64,7 +64,7 @@ deb:
 
 debclean: clean
 	$(MAKE) -f debian/rules realclean
-	rm -f lib* hashlib.so* hashlib.a
+	rm -f lib* spqrhash.so* spqrhash.a
 	rm -rf .deps
 
 tgz:
