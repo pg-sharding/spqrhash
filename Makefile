@@ -28,7 +28,7 @@ Data_ext = sql/spqrhash--1.0.sql sql/spqrhash--unpackaged--1.0.sql
 
 # Work around PGXS deficiencies - switch variables based on
 # whether extensions are supported.
-PgMajor = $(if $(MAJORVERSION),$(MAJORVERSION),8.3)
+PgMajor = $(if $(MAJORVERSION),$(MAJORVERSION),15)
 PgHaveExt = $(if $(filter 8.% 9.0,$(PgMajor)),noext,ext)
 DATA = $(Data_$(PgHaveExt))
 REGRESS = $(Regress_$(PgHaveExt))

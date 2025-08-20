@@ -1,8 +1,0 @@
-Source: pg-hash
-Section: database
-Priority: extra
-Maintainer: Yury Frolov <ein-krebs@yandex-team.ru>
-Build-Depends: debhelper (>= 7.0.50~), python-docutils, postgresql-server-dev-all
-Standards-Version: 3.9.1
-
-
