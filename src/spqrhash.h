@@ -1,5 +1,5 @@
-#ifndef _PGspqrhash_H_
-#define _PGspqrhash_H_
+#ifndef _SPQRHash_H_
+#define _SPQRHash_H_
 
 #include <postgres.h>
 #include <fmgr.h>

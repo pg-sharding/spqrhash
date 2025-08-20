@@ -32,7 +32,7 @@ override_dh_auto_install:
 
 .PHONY: orig realclean
 PKGVERS = $(shell dpkg-parsechangelog | awk -F '[:-]' '/^Version:/ { print substr($$2, 2) }')
-srcpkg = pgspqrhash_$(PKGVERS)
+srcpkg = spqrhash_$(PKGVERS)
 srctar = $(srcpkg).orig.tar.gz
 dst = ext/$(srcpkg)
 orig:
