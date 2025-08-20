@@ -7,6 +7,6 @@ Standards-Version: 4.7.2
 
 Package: postgresql-PGVERSION-spqrhash
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, postgresql-PGVERSION
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${postgresql:Depends}
 Description: SPQR hash functions for PostgreSQL
 
