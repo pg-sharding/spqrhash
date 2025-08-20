@@ -4,6 +4,7 @@ Priority: extra
 Maintainer: Yury Frolov <ein-krebs@yandex-team.ru>
 Build-Depends: debhelper (>= 13~), python3-docutils, postgresql-server-dev-all (>=281~)
 Standards-Version: 4.7.2
+Homepage: https://github.com/pg-sharding/spqrhash
 
 Package: postgresql-PGVERSION-spqrhash
 Architecture: any
