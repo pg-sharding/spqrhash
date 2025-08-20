@@ -1,11 +1,11 @@
-Source: pg-hash
+Source: spqrhash
 Section: database
 Priority: extra
 Maintainer: Yury Frolov <ein-krebs@yandex-team.ru>
-Build-Depends: debhelper (>= 7.0.50~), python-docutils, postgresql-server-dev-all
-Standards-Version: 3.9.1
+Build-Depends: debhelper (>= 13~), python3-docutils, postgresql-server-dev-all (>=281~)
+Standards-Version: 4.7.2
 
-Package: postgresql-spqrhash-PGVERSION
+Package: postgresql-PGVERSION-spqr-hash
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, postgresql-PGVERSION
 Description: SPQR hash functions for PostgreSQL

@@ -1,0 +1,2 @@
+usr/lib/postgresql/12/lib/spqrhash.so
+usr/share/postgresql/12/contrib/spqrhash.sql

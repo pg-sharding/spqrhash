@@ -1,8 +1,42 @@
-Source: pg-hash
+Source: spqrhash
 Section: database
 Priority: extra
 Maintainer: Yury Frolov <ein-krebs@yandex-team.ru>
-Build-Depends: debhelper (>= 7.0.50~), python-docutils, postgresql-server-dev-all
-Standards-Version: 3.9.1
+Build-Depends: debhelper (>= 13~), python3-docutils, postgresql-server-dev-all (>=281~),
+ postgresql-server-dev-12,
+ postgresql-server-dev-13, 
+ postgresql-server-dev-14,
+ postgresql-server-dev-15,
+ postgresql-server-dev-16,
+ postgresql-server-dev-17,
+Standards-Version: 4.7.2
 
+Package: postgresql-12-spqrhash
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, postgresql-12
+Description: SPQR hash functions for PostgreSQL
 
+Package: postgresql-13-spqrhash
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, postgresql-13
+Description: SPQR hash functions for PostgreSQL
+
+Package: postgresql-14-spqrhash
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, postgresql-14
+Description: SPQR hash functions for PostgreSQL
+
+Package: postgresql-15-spqrhash
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, postgresql-15
+Description: SPQR hash functions for PostgreSQL
+
+Package: postgresql-16-spqrhash
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, postgresql-16
+Description: SPQR hash functions for PostgreSQL
+
+Package: postgresql-17-spqrhash
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, postgresql-17
+Description: SPQR hash functions for PostgreSQL
