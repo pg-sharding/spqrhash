@@ -180,8 +180,6 @@ spqr_hash_murmur3_str(PG_FUNCTION_ARGS)
 	hlib_murmur3(VARDATA_ANY(data), VARSIZE_ANY_EXHDR(data), io);
 
 	PG_FREE_IF_COPY(data, 0);
-	PG_FREE_IF_COPY(hashname, 1);
-
 	PG_RETURN_INT64(io[0]);
 }
 

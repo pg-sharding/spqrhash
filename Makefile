@@ -73,5 +73,5 @@ tgz:
 pg_version?=16
 codename?=jammy
 regress:
-	docker build . --tag pg_hash:1.0 --build-arg POSTGRES_VERSION=$(pg_version) --build-arg codename=$(codename) && docker run pg_hash:1.0 | tee logs.out
+	docker build . --tag spqrhash_regress:1.0 --build-arg POSTGRES_VERSION=$(pg_version) --build-arg codename=$(codename) && docker run spqrhash_regress:1.0 | tee logs.out
 

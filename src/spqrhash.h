@@ -40,7 +40,8 @@ uint64_t hlib_murmur3_int64(uint64_t data);
 
 Datum pg_hash64_string(PG_FUNCTION_ARGS);
 Datum pg_hash_int64(PG_FUNCTION_ARGS);
-Datum spqr_hash_murmur3(PG_FUNCTION_ARGS);
+Datum spqr_hash_murmur3_str(PG_FUNCTION_ARGS);
+Datum spqr_hash_murmur3_int64(PG_FUNCTION_ARGS);
 
 #endif
 
