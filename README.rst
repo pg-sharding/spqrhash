@@ -17,26 +17,15 @@ You need PostgreSQL developent environment.  Then simply::
 Functions
 ---------
 
-hash64_string
+spqrhash_murmur3
 ~~~~~~~~~~~~~
 
 ::
+  spqrhash_murmur3(text) RETURNS int8
+  spqrhash_murmur3(bytea) RETURNS int8
+  spqrhash_murmur3(int8) RETURNS int8
 
-  hash64_string(data text, algo text, [, iv1 int8 [, iv2 int8]]) returns int8
-  hash64_string(data byte, algo text, [, iv1 int8 [, iv2 int8]]) returns int8
-
-Uses same algorithms as `hash_string()` but returns 64-bit result.
-
-hash_int8
-~~~~~~~~~
-
-::
-
-  hash_int8(val int8) returns int8
-
-Hash 64-bit integer.
-
-
+Murmur3 hash algorithm
 
 Hashing algorithms
 -------------------------
