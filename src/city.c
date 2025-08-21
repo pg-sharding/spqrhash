@@ -46,6 +46,7 @@
 // compromising on hash quality.
 
 #include "spqrhash.h"
+#include <byteswap.h>
 
 #if defined __GNUC__ && __GNUC__ >= 3
 #define HAVE_BUILTIN_EXPECT 1
@@ -104,6 +105,27 @@ static inline uint32_t Rotate32(uint32_t val, int shift) {
   return shift == 0 ? val : ((val >> shift) | (val << (32 - shift)));
 }
 
+// A 32-bit to 32-bit integer hash copied from Murmur3.
+static inline uint32_t fmix(uint32 h)
+{
+  h ^= h >> 16;
+  h *= 0x85ebca6b;
+  h ^= h >> 13;
+  h *= 0xc2b2ae35;
+  h ^= h >> 16;
+  return h;
+}
+
+static uint32_t Mur(uint32_t a, uint32_t h) {
+  // Helper from Murmur3 for combining two 32-bit values.
+  a *= c1;
+  a = Rotate32(a, 17);
+  a *= c2;
+  h ^= a;
+  h = Rotate32(h, 19);
+  return h * 5 + 0xe6546b64;
+}
+
 static inline uint32_t Hash32Len13to24(const char *s, size_t len) {
   uint32_t a = Fetch32(s - 4 + (len >> 1));
   uint32_t b = Fetch32(s + 4);
@@ -144,7 +166,7 @@ static uint32_t CityHash32(const char *s, size_t len) {
   }
 
   // len > 24
-  uint32_t h = (uint32_t)(len), g = c1 * h, f = g;
+  uint32_t h = (uint32_t)(len), g = c1 * h, f = g, tmp = 0;
   uint32_t a0 = Rotate32(Fetch32(s + len - 4) * c1, 17) * c2;
   uint32_t a1 = Rotate32(Fetch32(s + len - 8) * c1, 17) * c2;
   uint32_t a2 = Rotate32(Fetch32(s + len - 16) * c1, 17) * c2;
@@ -189,7 +211,10 @@ static uint32_t CityHash32(const char *s, size_t len) {
     h += a4 * 5;
     h = bswap_32(h);
     f += a0;
-    PERMUTE3(f, h, g);
+    tmp = f;
+    f = g;
+    g = h;
+    h = tmp;
     s += 20;
   } while (--iters != 0);
   g = Rotate32(g, 11) * c1;

@@ -9,6 +9,7 @@ PG_MODULE_MAGIC;
 
 PG_FUNCTION_INFO_V1(spqr_hash_murmur3_str);
 PG_FUNCTION_INFO_V1(spqr_hash_murmur3_int64);
+PG_FUNCTION_INFO_V1(spqr_hash_city32_str);
 
 /*
  * Public functions
@@ -60,7 +61,7 @@ spqr_hash_city32_str(PG_FUNCTION_ARGS)
 #endif
 
 	/* do hash */
-	hlib_city32(VARDATA_ANY(data), VARSIZE_ANY_EXHDR(data), io);
+	hlib_city32_str(VARDATA_ANY(data), VARSIZE_ANY_EXHDR(data), io);
 
 	PG_FREE_IF_COPY(data, 0);
 	PG_RETURN_INT64(io[0]);
