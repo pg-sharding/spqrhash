@@ -38,6 +38,7 @@ uint64_t hlib_murmur3_int64(uint64_t data);
 Datum spqr_hash_murmur3_str(PG_FUNCTION_ARGS);
 Datum spqr_hash_murmur3_int64(PG_FUNCTION_ARGS);
 Datum spqr_hash_city32_str(PG_FUNCTION_ARGS);
+Datum spqr_hash_city32_int64(PG_FUNCTION_ARGS);
 
 #endif
 

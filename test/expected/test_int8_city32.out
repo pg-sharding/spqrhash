@@ -1,0 +1,6000 @@
+select spqrhash_city32(1649948281024190043);
+ spqrhash_city32 
+-----------------
+      2888357758
+(1 row)
+
+select spqrhash_city32(4370573771773043787);
+ spqrhash_city32 
+-----------------
+      1930018522
+(1 row)
+
+select spqrhash_city32(962438281253897837);
+ spqrhash_city32 
+-----------------
+      2947904795
+(1 row)
+
+select spqrhash_city32(7890303011519714940);
+ spqrhash_city32 
+-----------------
+      2669571995
+(1 row)
+
+select spqrhash_city32(4136891617000842487);
+ spqrhash_city32 
+-----------------
+      1069427493
+(1 row)
+
+select spqrhash_city32(2130049700476032475);
+ spqrhash_city32 
+-----------------
+      3560655152
+(1 row)
+
+select spqrhash_city32(3523829445343831066);
+ spqrhash_city32 
+-----------------
+       574504843
+(1 row)
+
+select spqrhash_city32(5462265747105956784);
+ spqrhash_city32 
+-----------------
+      1658529479
+(1 row)
+
+select spqrhash_city32(4794653874853222613);
+ spqrhash_city32 
+-----------------
+      3153829081
+(1 row)
+
+select spqrhash_city32(5790790272378920462);
+ spqrhash_city32 
+-----------------
+      1273880310
+(1 row)
+
+select spqrhash_city32(5012875527928119037);
+ spqrhash_city32 
+-----------------
+      3746524703
+(1 row)
+
+select spqrhash_city32(6742913258734548572);
+ spqrhash_city32 
+-----------------
+      1818304956
+(1 row)
+
+select spqrhash_city32(5861952863859023843);
+ spqrhash_city32 
+-----------------
+       960884985
+(1 row)
+
+select spqrhash_city32(6932861674982968280);
+ spqrhash_city32 
+-----------------
+       667531980
+(1 row)
+
+select spqrhash_city32(1831758543037799554);
+ spqrhash_city32 
+-----------------
+      2345705044
+(1 row)
+
+select spqrhash_city32(4712779684503767522);
+ spqrhash_city32 
+-----------------
+      3358651590
+(1 row)
+
+select spqrhash_city32(8287325471146009578);
+ spqrhash_city32 
+-----------------
+      2637986612
+(1 row)
+
+select spqrhash_city32(7418435252043283641);
+ spqrhash_city32 
+-----------------
+      3187044448
+(1 row)
+
+select spqrhash_city32(4929081979816016869);
+ spqrhash_city32 
+-----------------
+       379302807
+(1 row)
+
+select spqrhash_city32(4688050971100594226);
+ spqrhash_city32 
+-----------------
+      2870674451
+(1 row)
+
+select spqrhash_city32(3138422257137638475);
+ spqrhash_city32 
+-----------------
+      1745606434
+(1 row)
+
+select spqrhash_city32(2184514518916074351);
+ spqrhash_city32 
+-----------------
+      1982395094
+(1 row)
+
+select spqrhash_city32(2555199238471833417);
+ spqrhash_city32 
+-----------------
+      1330091336
+(1 row)
+
+select spqrhash_city32(3166133051205728345);
+ spqrhash_city32 
+-----------------
+      3163473572
+(1 row)
+
+select spqrhash_city32(8558424688993657449);
+ spqrhash_city32 
+-----------------
+       540950255
+(1 row)
+
+select spqrhash_city32(4406227207492823037);
+ spqrhash_city32 
+-----------------
+       276134384
+(1 row)
+
+select spqrhash_city32(2094015181178734622);
+ spqrhash_city32 
+-----------------
+      2397295063
+(1 row)
+
+select spqrhash_city32(9145271653785101677);
+ spqrhash_city32 
+-----------------
+      2131816164
+(1 row)
+
+select spqrhash_city32(8913876121457973451);
+ spqrhash_city32 
+-----------------
+       841797187
+(1 row)
+
+select spqrhash_city32(2308576099226554592);
+ spqrhash_city32 
+-----------------
+       193537438
+(1 row)
+
+select spqrhash_city32(8579991389263912787);
+ spqrhash_city32 
+-----------------
+      3404356851
+(1 row)
+
+select spqrhash_city32(6042367366538941956);
+ spqrhash_city32 
+-----------------
+       559761567
+(1 row)
+
+select spqrhash_city32(4199805152939149260);
+ spqrhash_city32 
+-----------------
+       326512310
+(1 row)
+
+select spqrhash_city32(4163422430309540609);
+ spqrhash_city32 
+-----------------
+      2169958040
+(1 row)
+
+select spqrhash_city32(5449634155641547185);
+ spqrhash_city32 
+-----------------
+       798469066
+(1 row)
+
+select spqrhash_city32(3758292015356191970);
+ spqrhash_city32 
+-----------------
+      3476184160
+(1 row)
+
+select spqrhash_city32(604905343652217720);
+ spqrhash_city32 
+-----------------
+       469984573
+(1 row)
+
+select spqrhash_city32(8232438399377894691);
+ spqrhash_city32 
+-----------------
+       619546258
+(1 row)
+
+select spqrhash_city32(6597853136232096019);
+ spqrhash_city32 
+-----------------
+      3660248963
+(1 row)
+
+select spqrhash_city32(3023947623257116179);
+ spqrhash_city32 
+-----------------
+       916227523
+(1 row)
+
+select spqrhash_city32(3083424885427055398);
+ spqrhash_city32 
+-----------------
+      1813933056
+(1 row)
+
+select spqrhash_city32(2006478914811685409);
+ spqrhash_city32 
+-----------------
+      1970061084
+(1 row)
+
+select spqrhash_city32(2027094805796004435);
+ spqrhash_city32 
+-----------------
+       270636690
+(1 row)
+
+select spqrhash_city32(2113197992949951061);
+ spqrhash_city32 
+-----------------
+      1237510959
+(1 row)
+
+select spqrhash_city32(1456698379118041457);
+ spqrhash_city32 
+-----------------
+       331690428
+(1 row)
+
+select spqrhash_city32(1790750227712192979);
+ spqrhash_city32 
+-----------------
+      2326892498
+(1 row)
+
+select spqrhash_city32(6197301072909072694);
+ spqrhash_city32 
+-----------------
+      4177793090
+(1 row)
+
+select spqrhash_city32(567463118770593712);
+ spqrhash_city32 
+-----------------
+       483417064
+(1 row)
+
+select spqrhash_city32(511147468279421376);
+ spqrhash_city32 
+-----------------
+      3759692165
+(1 row)
+
+select spqrhash_city32(5433815072441633411);
+ spqrhash_city32 
+-----------------
+      1139884504
+(1 row)
+
+select spqrhash_city32(5734444324637590704);
+ spqrhash_city32 
+-----------------
+      2972420345
+(1 row)
+
+select spqrhash_city32(7728604654802438955);
+ spqrhash_city32 
+-----------------
+      3316951525
+(1 row)
+
+select spqrhash_city32(2027217364262344139);
+ spqrhash_city32 
+-----------------
+       975498229
+(1 row)
+
+select spqrhash_city32(8199106131866305093);
+ spqrhash_city32 
+-----------------
+      2973914882
+(1 row)
+
+select spqrhash_city32(9088785926011892988);
+ spqrhash_city32 
+-----------------
+       976748033
+(1 row)
+
+select spqrhash_city32(6944733837431217580);
+ spqrhash_city32 
+-----------------
+      3507239878
+(1 row)
+
+select spqrhash_city32(5619814926346592796);
+ spqrhash_city32 
+-----------------
+      1855503171
+(1 row)
+
+select spqrhash_city32(5891721601129862352);
+ spqrhash_city32 
+-----------------
+      3138774993
+(1 row)
+
+select spqrhash_city32(8597576480115164372);
+ spqrhash_city32 
+-----------------
+       365192181
+(1 row)
+
+select spqrhash_city32(2945745059628407893);
+ spqrhash_city32 
+-----------------
+      3595051351
+(1 row)
+
+select spqrhash_city32(5624784262270062180);
+ spqrhash_city32 
+-----------------
+      2044699935
+(1 row)
+
+select spqrhash_city32(4093767997798650419);
+ spqrhash_city32 
+-----------------
+      3457412341
+(1 row)
+
+select spqrhash_city32(6302180571893678333);
+ spqrhash_city32 
+-----------------
+      3506773558
+(1 row)
+
+select spqrhash_city32(7750456372017671162);
+ spqrhash_city32 
+-----------------
+       495151897
+(1 row)
+
+select spqrhash_city32(5082502775526703534);
+ spqrhash_city32 
+-----------------
+      2706058485
+(1 row)
+
+select spqrhash_city32(7245785514566809656);
+ spqrhash_city32 
+-----------------
+      3635004141
+(1 row)
+
+select spqrhash_city32(5598648646782268676);
+ spqrhash_city32 
+-----------------
+       480772418
+(1 row)
+
+select spqrhash_city32(1052480327601621609);
+ spqrhash_city32 
+-----------------
+      2967410287
+(1 row)
+
+select spqrhash_city32(4433858034250611210);
+ spqrhash_city32 
+-----------------
+      1499618074
+(1 row)
+
+select spqrhash_city32(5501447595768784658);
+ spqrhash_city32 
+-----------------
+      3110595248
+(1 row)
+
+select spqrhash_city32(261504368743925883);
+ spqrhash_city32 
+-----------------
+        59439020
+(1 row)
+
+select spqrhash_city32(821446394200852606);
+ spqrhash_city32 
+-----------------
+       432077309
+(1 row)
+
+select spqrhash_city32(6567808318000426000);
+ spqrhash_city32 
+-----------------
+      1299099681
+(1 row)
+
+select spqrhash_city32(8614000825424282683);
+ spqrhash_city32 
+-----------------
+      3778448554
+(1 row)
+
+select spqrhash_city32(6058205157930347515);
+ spqrhash_city32 
+-----------------
+      3040199499
+(1 row)
+
+select spqrhash_city32(4662238955891843574);
+ spqrhash_city32 
+-----------------
+      1734450117
+(1 row)
+
+select spqrhash_city32(2385084395590731647);
+ spqrhash_city32 
+-----------------
+      2675244459
+(1 row)
+
+select spqrhash_city32(2041530976866218253);
+ spqrhash_city32 
+-----------------
+      1284276268
+(1 row)
+
+select spqrhash_city32(6946142810932759058);
+ spqrhash_city32 
+-----------------
+      1198569737
+(1 row)
+
+select spqrhash_city32(2405623104172498081);
+ spqrhash_city32 
+-----------------
+      1413179958
+(1 row)
+
+select spqrhash_city32(2840229249970789306);
+ spqrhash_city32 
+-----------------
+      2229056755
+(1 row)
+
+select spqrhash_city32(8442358847462363459);
+ spqrhash_city32 
+-----------------
+      2460971020
+(1 row)
+
+select spqrhash_city32(5327979805904855040);
+ spqrhash_city32 
+-----------------
+      1981648511
+(1 row)
+
+select spqrhash_city32(552942738510418072);
+ spqrhash_city32 
+-----------------
+      1384546935
+(1 row)
+
+select spqrhash_city32(8222287809203931607);
+ spqrhash_city32 
+-----------------
+      2748363935
+(1 row)
+
+select spqrhash_city32(6569055041944548960);
+ spqrhash_city32 
+-----------------
+       179146116
+(1 row)
+
+select spqrhash_city32(1715693097750507214);
+ spqrhash_city32 
+-----------------
+      1397592042
+(1 row)
+
+select spqrhash_city32(6810614817090818126);
+ spqrhash_city32 
+-----------------
+        29802832
+(1 row)
+
+select spqrhash_city32(7313124102716223668);
+ spqrhash_city32 
+-----------------
+      3747049255
+(1 row)
+
+select spqrhash_city32(2953224957091525371);
+ spqrhash_city32 
+-----------------
+      2582385779
+(1 row)
+
+select spqrhash_city32(1947073264725124499);
+ spqrhash_city32 
+-----------------
+      3411313329
+(1 row)
+
+select spqrhash_city32(5399261188396330928);
+ spqrhash_city32 
+-----------------
+      4184411994
+(1 row)
+
+select spqrhash_city32(2607206600456660223);
+ spqrhash_city32 
+-----------------
+      1677493035
+(1 row)
+
+select spqrhash_city32(1040482147456193895);
+ spqrhash_city32 
+-----------------
+      4166961384
+(1 row)
+
+select spqrhash_city32(4187781601488852935);
+ spqrhash_city32 
+-----------------
+      2088289507
+(1 row)
+
+select spqrhash_city32(3144945345980528349);
+ spqrhash_city32 
+-----------------
+      2230505468
+(1 row)
+
+select spqrhash_city32(8314708831101367069);
+ spqrhash_city32 
+-----------------
+      2357619344
+(1 row)
+
+select spqrhash_city32(8335238491842156316);
+ spqrhash_city32 
+-----------------
+      2076385692
+(1 row)
+
+select spqrhash_city32(3438657001869338538);
+ spqrhash_city32 
+-----------------
+      2470058314
+(1 row)
+
+select spqrhash_city32(7008151765370874818);
+ spqrhash_city32 
+-----------------
+      1649954694
+(1 row)
+
+select spqrhash_city32(4636624434596864800);
+ spqrhash_city32 
+-----------------
+      2885469955
+(1 row)
+
+select spqrhash_city32(3744752248547961089);
+ spqrhash_city32 
+-----------------
+      3054010228
+(1 row)
+
+select spqrhash_city32(4048670683240528230);
+ spqrhash_city32 
+-----------------
+      1568030565
+(1 row)
+
+select spqrhash_city32(4963602796904637168);
+ spqrhash_city32 
+-----------------
+       723448534
+(1 row)
+
+select spqrhash_city32(3933581776828529889);
+ spqrhash_city32 
+-----------------
+      3611634574
+(1 row)
+
+select spqrhash_city32(7735068776550783819);
+ spqrhash_city32 
+-----------------
+      3784360689
+(1 row)
+
+select spqrhash_city32(8342906403528968504);
+ spqrhash_city32 
+-----------------
+      2310913111
+(1 row)
+
+select spqrhash_city32(4738949062040822053);
+ spqrhash_city32 
+-----------------
+      3131811961
+(1 row)
+
+select spqrhash_city32(7020504422380201838);
+ spqrhash_city32 
+-----------------
+      3849391800
+(1 row)
+
+select spqrhash_city32(7799686472929027490);
+ spqrhash_city32 
+-----------------
+       178086740
+(1 row)
+
+select spqrhash_city32(2657434339045073854);
+ spqrhash_city32 
+-----------------
+       419442407
+(1 row)
+
+select spqrhash_city32(5842533649796687917);
+ spqrhash_city32 
+-----------------
+      3479288743
+(1 row)
+
+select spqrhash_city32(705620787714738269);
+ spqrhash_city32 
+-----------------
+      2901874493
+(1 row)
+
+select spqrhash_city32(3438357892912945090);
+ spqrhash_city32 
+-----------------
+      4263411070
+(1 row)
+
+select spqrhash_city32(5078707194210929579);
+ spqrhash_city32 
+-----------------
+      3711153328
+(1 row)
+
+select spqrhash_city32(3907962523089902903);
+ spqrhash_city32 
+-----------------
+      1555179387
+(1 row)
+
+select spqrhash_city32(7877098478930661961);
+ spqrhash_city32 
+-----------------
+       467084286
+(1 row)
+
+select spqrhash_city32(8572631902704365327);
+ spqrhash_city32 
+-----------------
+      2033061218
+(1 row)
+
+select spqrhash_city32(6017713178653617796);
+ spqrhash_city32 
+-----------------
+      3755589005
+(1 row)
+
+select spqrhash_city32(1883021223185901842);
+ spqrhash_city32 
+-----------------
+      3664139406
+(1 row)
+
+select spqrhash_city32(8186207417191479083);
+ spqrhash_city32 
+-----------------
+      3753983354
+(1 row)
+
+select spqrhash_city32(1258303590144249130);
+ spqrhash_city32 
+-----------------
+      1226916466
+(1 row)
+
+select spqrhash_city32(6195075294577641466);
+ spqrhash_city32 
+-----------------
+      2751630798
+(1 row)
+
+select spqrhash_city32(6468819310193616758);
+ spqrhash_city32 
+-----------------
+      2071003821
+(1 row)
+
+select spqrhash_city32(7900811651101414557);
+ spqrhash_city32 
+-----------------
+       541709673
+(1 row)
+
+select spqrhash_city32(7347083631377939650);
+ spqrhash_city32 
+-----------------
+      1515401270
+(1 row)
+
+select spqrhash_city32(8086718010032579441);
+ spqrhash_city32 
+-----------------
+      4231435934
+(1 row)
+
+select spqrhash_city32(5967071884849143455);
+ spqrhash_city32 
+-----------------
+      1647833328
+(1 row)
+
+select spqrhash_city32(7017894720508252830);
+ spqrhash_city32 
+-----------------
+      2251752214
+(1 row)
+
+select spqrhash_city32(403717403750564241);
+ spqrhash_city32 
+-----------------
+       266241488
+(1 row)
+
+select spqrhash_city32(792367719325267827);
+ spqrhash_city32 
+-----------------
+       181060637
+(1 row)
+
+select spqrhash_city32(8324514343606832661);
+ spqrhash_city32 
+-----------------
+      2822455867
+(1 row)
+
+select spqrhash_city32(5936320139970357688);
+ spqrhash_city32 
+-----------------
+        42812118
+(1 row)
+
+select spqrhash_city32(3899620868701050637);
+ spqrhash_city32 
+-----------------
+      2214684487
+(1 row)
+
+select spqrhash_city32(2141824552929094326);
+ spqrhash_city32 
+-----------------
+       882910082
+(1 row)
+
+select spqrhash_city32(5745331907541665623);
+ spqrhash_city32 
+-----------------
+      2257949304
+(1 row)
+
+select spqrhash_city32(1191906901835296513);
+ spqrhash_city32 
+-----------------
+      3569761276
+(1 row)
+
+select spqrhash_city32(6617553665660730639);
+ spqrhash_city32 
+-----------------
+      2038368073
+(1 row)
+
+select spqrhash_city32(3873625299186783827);
+ spqrhash_city32 
+-----------------
+      2205759183
+(1 row)
+
+select spqrhash_city32(4338963955795594879);
+ spqrhash_city32 
+-----------------
+      1300453909
+(1 row)
+
+select spqrhash_city32(3738180083037254733);
+ spqrhash_city32 
+-----------------
+       613053395
+(1 row)
+
+select spqrhash_city32(5418401451787043956);
+ spqrhash_city32 
+-----------------
+      2161446346
+(1 row)
+
+select spqrhash_city32(2500304266887627238);
+ spqrhash_city32 
+-----------------
+      3475601261
+(1 row)
+
+select spqrhash_city32(528737639390134466);
+ spqrhash_city32 
+-----------------
+      1432163483
+(1 row)
+
+select spqrhash_city32(6174583554393671444);
+ spqrhash_city32 
+-----------------
+       693119586
+(1 row)
+
+select spqrhash_city32(5474675596457917497);
+ spqrhash_city32 
+-----------------
+      3213936031
+(1 row)
+
+select spqrhash_city32(486415497861487153);
+ spqrhash_city32 
+-----------------
+      2097316807
+(1 row)
+
+select spqrhash_city32(2276456919494951648);
+ spqrhash_city32 
+-----------------
+      1450069891
+(1 row)
+
+select spqrhash_city32(224017828395709182);
+ spqrhash_city32 
+-----------------
+      3505792392
+(1 row)
+
+select spqrhash_city32(6516654002419519933);
+ spqrhash_city32 
+-----------------
+      2516377488
+(1 row)
+
+select spqrhash_city32(4169869848181019298);
+ spqrhash_city32 
+-----------------
+      2316503243
+(1 row)
+
+select spqrhash_city32(4398421953096901225);
+ spqrhash_city32 
+-----------------
+      2898002350
+(1 row)
+
+select spqrhash_city32(3343416235674144477);
+ spqrhash_city32 
+-----------------
+       533901256
+(1 row)
+
+select spqrhash_city32(2577002049831073837);
+ spqrhash_city32 
+-----------------
+       578945657
+(1 row)
+
+select spqrhash_city32(8444607066271023901);
+ spqrhash_city32 
+-----------------
+      1723986079
+(1 row)
+
+select spqrhash_city32(7512625659513383234);
+ spqrhash_city32 
+-----------------
+      2595795818
+(1 row)
+
+select spqrhash_city32(7646083775562105759);
+ spqrhash_city32 
+-----------------
+      3024689378
+(1 row)
+
+select spqrhash_city32(1162237783431041924);
+ spqrhash_city32 
+-----------------
+      4140721472
+(1 row)
+
+select spqrhash_city32(3057736336734159538);
+ spqrhash_city32 
+-----------------
+      4107834847
+(1 row)
+
+select spqrhash_city32(857550278779554163);
+ spqrhash_city32 
+-----------------
+      3007405756
+(1 row)
+
+select spqrhash_city32(7724729270852346156);
+ spqrhash_city32 
+-----------------
+        67051531
+(1 row)
+
+select spqrhash_city32(5502061793411302961);
+ spqrhash_city32 
+-----------------
+      2061539282
+(1 row)
+
+select spqrhash_city32(7811498341380622512);
+ spqrhash_city32 
+-----------------
+      1180850119
+(1 row)
+
+select spqrhash_city32(7330257193709689118);
+ spqrhash_city32 
+-----------------
+      2971304980
+(1 row)
+
+select spqrhash_city32(946284837179678404);
+ spqrhash_city32 
+-----------------
+      1374607367
+(1 row)
+
+select spqrhash_city32(6028534523869129446);
+ spqrhash_city32 
+-----------------
+      3949874601
+(1 row)
+
+select spqrhash_city32(1679359524174262925);
+ spqrhash_city32 
+-----------------
+      2944561922
+(1 row)
+
+select spqrhash_city32(3861745540405293293);
+ spqrhash_city32 
+-----------------
+      1517224498
+(1 row)
+
+select spqrhash_city32(2792481678401998237);
+ spqrhash_city32 
+-----------------
+      1906540485
+(1 row)
+
+select spqrhash_city32(2827911909248931035);
+ spqrhash_city32 
+-----------------
+       385428966
+(1 row)
+
+select spqrhash_city32(2296608873118210344);
+ spqrhash_city32 
+-----------------
+      3281832268
+(1 row)
+
+select spqrhash_city32(8544354784114568583);
+ spqrhash_city32 
+-----------------
+      3006562101
+(1 row)
+
+select spqrhash_city32(2905764022945630510);
+ spqrhash_city32 
+-----------------
+      3094051350
+(1 row)
+
+select spqrhash_city32(8812716039519348072);
+ spqrhash_city32 
+-----------------
+      3075366118
+(1 row)
+
+select spqrhash_city32(391428617683054024);
+ spqrhash_city32 
+-----------------
+      1870816298
+(1 row)
+
+select spqrhash_city32(5228160530419101390);
+ spqrhash_city32 
+-----------------
+      1535011534
+(1 row)
+
+select spqrhash_city32(1639090156582737828);
+ spqrhash_city32 
+-----------------
+       411783093
+(1 row)
+
+select spqrhash_city32(8703779157984164865);
+ spqrhash_city32 
+-----------------
+      1718893111
+(1 row)
+
+select spqrhash_city32(835229849343373026);
+ spqrhash_city32 
+-----------------
+       889521708
+(1 row)
+
+select spqrhash_city32(3237249240791635796);
+ spqrhash_city32 
+-----------------
+        21821437
+(1 row)
+
+select spqrhash_city32(8263069426200768794);
+ spqrhash_city32 
+-----------------
+      1484435864
+(1 row)
+
+select spqrhash_city32(4610085537417445415);
+ spqrhash_city32 
+-----------------
+      2155566103
+(1 row)
+
+select spqrhash_city32(3660063946112135194);
+ spqrhash_city32 
+-----------------
+      3219090852
+(1 row)
+
+select spqrhash_city32(1138886540935798814);
+ spqrhash_city32 
+-----------------
+      2813136283
+(1 row)
+
+select spqrhash_city32(5141996373592660181);
+ spqrhash_city32 
+-----------------
+      4227327380
+(1 row)
+
+select spqrhash_city32(6746060811407099856);
+ spqrhash_city32 
+-----------------
+      3154430212
+(1 row)
+
+select spqrhash_city32(1341060172816213703);
+ spqrhash_city32 
+-----------------
+      1894220569
+(1 row)
+
+select spqrhash_city32(4653876619451277327);
+ spqrhash_city32 
+-----------------
+       184536620
+(1 row)
+
+select spqrhash_city32(2195280941032939118);
+ spqrhash_city32 
+-----------------
+      2593663008
+(1 row)
+
+select spqrhash_city32(5903109098583328180);
+ spqrhash_city32 
+-----------------
+      1198990960
+(1 row)
+
+select spqrhash_city32(7781055064500252294);
+ spqrhash_city32 
+-----------------
+      3258637262
+(1 row)
+
+select spqrhash_city32(7998155347440885731);
+ spqrhash_city32 
+-----------------
+      1551538989
+(1 row)
+
+select spqrhash_city32(8924996298887835288);
+ spqrhash_city32 
+-----------------
+      2399155912
+(1 row)
+
+select spqrhash_city32(1480131059474698633);
+ spqrhash_city32 
+-----------------
+      1999093680
+(1 row)
+
+select spqrhash_city32(6745567011418484438);
+ spqrhash_city32 
+-----------------
+      2376662463
+(1 row)
+
+select spqrhash_city32(8714422048563343858);
+ spqrhash_city32 
+-----------------
+       937946372
+(1 row)
+
+select spqrhash_city32(3223906606081035740);
+ spqrhash_city32 
+-----------------
+      3671977707
+(1 row)
+
+select spqrhash_city32(328866841783177079);
+ spqrhash_city32 
+-----------------
+      2741723600
+(1 row)
+
+select spqrhash_city32(8387399714515045015);
+ spqrhash_city32 
+-----------------
+      4136917107
+(1 row)
+
+select spqrhash_city32(4936997311462139197);
+ spqrhash_city32 
+-----------------
+      2385249164
+(1 row)
+
+select spqrhash_city32(8432696356151693861);
+ spqrhash_city32 
+-----------------
+      1664563481
+(1 row)
+
+select spqrhash_city32(50566653845419136);
+ spqrhash_city32 
+-----------------
+       580077249
+(1 row)
+
+select spqrhash_city32(9011939988897411295);
+ spqrhash_city32 
+-----------------
+      1879701169
+(1 row)
+
+select spqrhash_city32(1755735998530469936);
+ spqrhash_city32 
+-----------------
+      1369850203
+(1 row)
+
+select spqrhash_city32(8240259588363417889);
+ spqrhash_city32 
+-----------------
+       841852570
+(1 row)
+
+select spqrhash_city32(6889470396975794827);
+ spqrhash_city32 
+-----------------
+      2231330914
+(1 row)
+
+select spqrhash_city32(8566224813071858735);
+ spqrhash_city32 
+-----------------
+       601519035
+(1 row)
+
+select spqrhash_city32(2276000798989185015);
+ spqrhash_city32 
+-----------------
+      2227030525
+(1 row)
+
+select spqrhash_city32(1186116156480762651);
+ spqrhash_city32 
+-----------------
+      1708887393
+(1 row)
+
+select spqrhash_city32(5432761817264475827);
+ spqrhash_city32 
+-----------------
+      4268881438
+(1 row)
+
+select spqrhash_city32(3749574717650464779);
+ spqrhash_city32 
+-----------------
+      4076437237
+(1 row)
+
+select spqrhash_city32(6418433090768573596);
+ spqrhash_city32 
+-----------------
+      1858738943
+(1 row)
+
+select spqrhash_city32(3104341653832892328);
+ spqrhash_city32 
+-----------------
+      3741631904
+(1 row)
+
+select spqrhash_city32(3353563159648477406);
+ spqrhash_city32 
+-----------------
+      1585246902
+(1 row)
+
+select spqrhash_city32(4472193236783006770);
+ spqrhash_city32 
+-----------------
+      4034398033
+(1 row)
+
+select spqrhash_city32(7725344050589537538);
+ spqrhash_city32 
+-----------------
+      1642965902
+(1 row)
+
+select spqrhash_city32(660648821633927126);
+ spqrhash_city32 
+-----------------
+        70289926
+(1 row)
+
+select spqrhash_city32(8279984823851807761);
+ spqrhash_city32 
+-----------------
+      1903093251
+(1 row)
+
+select spqrhash_city32(3097399704507158455);
+ spqrhash_city32 
+-----------------
+        79707075
+(1 row)
+
+select spqrhash_city32(7072262848611836530);
+ spqrhash_city32 
+-----------------
+      1503501160
+(1 row)
+
+select spqrhash_city32(5899912039932315757);
+ spqrhash_city32 
+-----------------
+       754845359
+(1 row)
+
+select spqrhash_city32(7293258126818279729);
+ spqrhash_city32 
+-----------------
+      3428848350
+(1 row)
+
+select spqrhash_city32(3577344311237790384);
+ spqrhash_city32 
+-----------------
+       900015812
+(1 row)
+
+select spqrhash_city32(6297783945432134291);
+ spqrhash_city32 
+-----------------
+       526811854
+(1 row)
+
+select spqrhash_city32(7769408939125116211);
+ spqrhash_city32 
+-----------------
+       849903187
+(1 row)
+
+select spqrhash_city32(3508553927159707132);
+ spqrhash_city32 
+-----------------
+      3586916745
+(1 row)
+
+select spqrhash_city32(3044886606435800576);
+ spqrhash_city32 
+-----------------
+      2722663597
+(1 row)
+
+select spqrhash_city32(7147624989696504956);
+ spqrhash_city32 
+-----------------
+      4176405508
+(1 row)
+
+select spqrhash_city32(239896419103293146);
+ spqrhash_city32 
+-----------------
+      1045938420
+(1 row)
+
+select spqrhash_city32(503902296289142763);
+ spqrhash_city32 
+-----------------
+      3554193841
+(1 row)
+
+select spqrhash_city32(3793601843094033100);
+ spqrhash_city32 
+-----------------
+      2518637099
+(1 row)
+
+select spqrhash_city32(6056586993932081969);
+ spqrhash_city32 
+-----------------
+      2884846837
+(1 row)
+
+select spqrhash_city32(3662277001679437968);
+ spqrhash_city32 
+-----------------
+      4268517706
+(1 row)
+
+select spqrhash_city32(8006374000296348239);
+ spqrhash_city32 
+-----------------
+      3483170031
+(1 row)
+
+select spqrhash_city32(442046996195715138);
+ spqrhash_city32 
+-----------------
+      4014094092
+(1 row)
+
+select spqrhash_city32(7017868726702933075);
+ spqrhash_city32 
+-----------------
+      1898157885
+(1 row)
+
+select spqrhash_city32(7300176056137102433);
+ spqrhash_city32 
+-----------------
+      2815059702
+(1 row)
+
+select spqrhash_city32(1740763222894096686);
+ spqrhash_city32 
+-----------------
+      1698194325
+(1 row)
+
+select spqrhash_city32(1600920347641714088);
+ spqrhash_city32 
+-----------------
+      1056597948
+(1 row)
+
+select spqrhash_city32(3846928088091172983);
+ spqrhash_city32 
+-----------------
+      1932379125
+(1 row)
+
+select spqrhash_city32(2423471753416149510);
+ spqrhash_city32 
+-----------------
+      2876336103
+(1 row)
+
+select spqrhash_city32(676366654098725365);
+ spqrhash_city32 
+-----------------
+      1397371998
+(1 row)
+
+select spqrhash_city32(2379999900578104710);
+ spqrhash_city32 
+-----------------
+      3276773375
+(1 row)
+
+select spqrhash_city32(5890503315168177629);
+ spqrhash_city32 
+-----------------
+      2458343878
+(1 row)
+
+select spqrhash_city32(7207574243831995326);
+ spqrhash_city32 
+-----------------
+      3322689968
+(1 row)
+
+select spqrhash_city32(5330974701112502559);
+ spqrhash_city32 
+-----------------
+       222576771
+(1 row)
+
+select spqrhash_city32(8329837328819495839);
+ spqrhash_city32 
+-----------------
+      1498131810
+(1 row)
+
+select spqrhash_city32(5256200291451659558);
+ spqrhash_city32 
+-----------------
+      2956469228
+(1 row)
+
+select spqrhash_city32(8276937876495110795);
+ spqrhash_city32 
+-----------------
+      3596731029
+(1 row)
+
+select spqrhash_city32(775018876397710747);
+ spqrhash_city32 
+-----------------
+      1569315858
+(1 row)
+
+select spqrhash_city32(7373435253026733693);
+ spqrhash_city32 
+-----------------
+       695113123
+(1 row)
+
+select spqrhash_city32(7974674094143241277);
+ spqrhash_city32 
+-----------------
+      2932164835
+(1 row)
+
+select spqrhash_city32(1173589063387892735);
+ spqrhash_city32 
+-----------------
+      3756943305
+(1 row)
+
+select spqrhash_city32(5613938030245326443);
+ spqrhash_city32 
+-----------------
+       753419654
+(1 row)
+
+select spqrhash_city32(6264864516663278858);
+ spqrhash_city32 
+-----------------
+      2396367130
+(1 row)
+
+select spqrhash_city32(6096339972720448724);
+ spqrhash_city32 
+-----------------
+       416303065
+(1 row)
+
+select spqrhash_city32(2631417822127014555);
+ spqrhash_city32 
+-----------------
+      2000503248
+(1 row)
+
+select spqrhash_city32(8767820616456010811);
+ spqrhash_city32 
+-----------------
+      1305316743
+(1 row)
+
+select spqrhash_city32(5915633109112067916);
+ spqrhash_city32 
+-----------------
+       557396379
+(1 row)
+
+select spqrhash_city32(1680426476616690362);
+ spqrhash_city32 
+-----------------
+       542408315
+(1 row)
+
+select spqrhash_city32(5155981424893625460);
+ spqrhash_city32 
+-----------------
+      1573763593
+(1 row)
+
+select spqrhash_city32(6414175456875211040);
+ spqrhash_city32 
+-----------------
+      1693289326
+(1 row)
+
+select spqrhash_city32(1515614457922051879);
+ spqrhash_city32 
+-----------------
+       680998567
+(1 row)
+
+select spqrhash_city32(4468530585876245904);
+ spqrhash_city32 
+-----------------
+      1915020678
+(1 row)
+
+select spqrhash_city32(2016763071991400085);
+ spqrhash_city32 
+-----------------
+       990312380
+(1 row)
+
+select spqrhash_city32(4263258640254966155);
+ spqrhash_city32 
+-----------------
+       468005445
+(1 row)
+
+select spqrhash_city32(881861264975435554);
+ spqrhash_city32 
+-----------------
+       894909045
+(1 row)
+
+select spqrhash_city32(3805302281700660493);
+ spqrhash_city32 
+-----------------
+      2768198551
+(1 row)
+
+select spqrhash_city32(52200146204585550);
+ spqrhash_city32 
+-----------------
+      3455946700
+(1 row)
+
+select spqrhash_city32(997262451481787237);
+ spqrhash_city32 
+-----------------
+      2289657212
+(1 row)
+
+select spqrhash_city32(5247885276012371803);
+ spqrhash_city32 
+-----------------
+      2456221376
+(1 row)
+
+select spqrhash_city32(5628681747584022151);
+ spqrhash_city32 
+-----------------
+      1896069118
+(1 row)
+
+select spqrhash_city32(7902324837770708131);
+ spqrhash_city32 
+-----------------
+       735131355
+(1 row)
+
+select spqrhash_city32(5140832862698465631);
+ spqrhash_city32 
+-----------------
+      4048867370
+(1 row)
+
+select spqrhash_city32(1055174410507513368);
+ spqrhash_city32 
+-----------------
+       171807765
+(1 row)
+
+select spqrhash_city32(1306177954096293316);
+ spqrhash_city32 
+-----------------
+       786083136
+(1 row)
+
+select spqrhash_city32(8714356601289218117);
+ spqrhash_city32 
+-----------------
+       999408212
+(1 row)
+
+select spqrhash_city32(2259381758798668130);
+ spqrhash_city32 
+-----------------
+      4035131138
+(1 row)
+
+select spqrhash_city32(3554023418118687984);
+ spqrhash_city32 
+-----------------
+      2588028645
+(1 row)
+
+select spqrhash_city32(5621142575227010734);
+ spqrhash_city32 
+-----------------
+       690656700
+(1 row)
+
+select spqrhash_city32(3035625172785408101);
+ spqrhash_city32 
+-----------------
+      2829414384
+(1 row)
+
+select spqrhash_city32(338011076981976284);
+ spqrhash_city32 
+-----------------
+      2351505731
+(1 row)
+
+select spqrhash_city32(1273730418538252338);
+ spqrhash_city32 
+-----------------
+      3069753782
+(1 row)
+
+select spqrhash_city32(2735723156500709269);
+ spqrhash_city32 
+-----------------
+      2597341075
+(1 row)
+
+select spqrhash_city32(4045502479459052554);
+ spqrhash_city32 
+-----------------
+      1556967859
+(1 row)
+
+select spqrhash_city32(5135073228179587259);
+ spqrhash_city32 
+-----------------
+       745721736
+(1 row)
+
+select spqrhash_city32(1917670593139059806);
+ spqrhash_city32 
+-----------------
+      1844548794
+(1 row)
+
+select spqrhash_city32(3222454257294538614);
+ spqrhash_city32 
+-----------------
+      3129091966
+(1 row)
+
+select spqrhash_city32(7069565926754788660);
+ spqrhash_city32 
+-----------------
+      3201936876
+(1 row)
+
+select spqrhash_city32(2019470507456343384);
+ spqrhash_city32 
+-----------------
+       392726530
+(1 row)
+
+select spqrhash_city32(6065416782257031479);
+ spqrhash_city32 
+-----------------
+      2055068586
+(1 row)
+
+select spqrhash_city32(4859601162883589770);
+ spqrhash_city32 
+-----------------
+       871408312
+(1 row)
+
+select spqrhash_city32(4318342298661672748);
+ spqrhash_city32 
+-----------------
+      1334500585
+(1 row)
+
+select spqrhash_city32(4177446804362426679);
+ spqrhash_city32 
+-----------------
+       570636605
+(1 row)
+
+select spqrhash_city32(7090106531778001808);
+ spqrhash_city32 
+-----------------
+      3729055691
+(1 row)
+
+select spqrhash_city32(5097114051052295851);
+ spqrhash_city32 
+-----------------
+      3472623651
+(1 row)
+
+select spqrhash_city32(8133695542451465350);
+ spqrhash_city32 
+-----------------
+      2084755611
+(1 row)
+
+select spqrhash_city32(6178846866292555368);
+ spqrhash_city32 
+-----------------
+      1291137194
+(1 row)
+
+select spqrhash_city32(4129487918264084003);
+ spqrhash_city32 
+-----------------
+      2501114375
+(1 row)
+
+select spqrhash_city32(7762603914978021655);
+ spqrhash_city32 
+-----------------
+      3764696948
+(1 row)
+
+select spqrhash_city32(4431650134830072182);
+ spqrhash_city32 
+-----------------
+      2295142216
+(1 row)
+
+select spqrhash_city32(1206865706682058854);
+ spqrhash_city32 
+-----------------
+      2066011218
+(1 row)
+
+select spqrhash_city32(735521783331457065);
+ spqrhash_city32 
+-----------------
+      1055996397
+(1 row)
+
+select spqrhash_city32(3292559250653380650);
+ spqrhash_city32 
+-----------------
+       728703729
+(1 row)
+
+select spqrhash_city32(4371012805377948407);
+ spqrhash_city32 
+-----------------
+      1803361309
+(1 row)
+
+select spqrhash_city32(4983353822666077241);
+ spqrhash_city32 
+-----------------
+      1050088760
+(1 row)
+
+select spqrhash_city32(337200610531277803);
+ spqrhash_city32 
+-----------------
+      3025478929
+(1 row)
+
+select spqrhash_city32(2582023564644014315);
+ spqrhash_city32 
+-----------------
+      1296205926
+(1 row)
+
+select spqrhash_city32(628399337152041315);
+ spqrhash_city32 
+-----------------
+      1570797549
+(1 row)
+
+select spqrhash_city32(5807736787035340119);
+ spqrhash_city32 
+-----------------
+      3308962099
+(1 row)
+
+select spqrhash_city32(1982518926909882559);
+ spqrhash_city32 
+-----------------
+      1456633808
+(1 row)
+
+select spqrhash_city32(7341707865528511493);
+ spqrhash_city32 
+-----------------
+      3762720748
+(1 row)
+
+select spqrhash_city32(8046949077594314106);
+ spqrhash_city32 
+-----------------
+      3620593498
+(1 row)
+
+select spqrhash_city32(5304756774883109218);
+ spqrhash_city32 
+-----------------
+       914950057
+(1 row)
+
+select spqrhash_city32(6819672321064316181);
+ spqrhash_city32 
+-----------------
+      3412002848
+(1 row)
+
+select spqrhash_city32(4088662038172383303);
+ spqrhash_city32 
+-----------------
+      1937640441
+(1 row)
+
+select spqrhash_city32(8172614851209927591);
+ spqrhash_city32 
+-----------------
+       886790965
+(1 row)
+
+select spqrhash_city32(1225361002914869892);
+ spqrhash_city32 
+-----------------
+      1927097331
+(1 row)
+
+select spqrhash_city32(9036135840971782332);
+ spqrhash_city32 
+-----------------
+      2968382472
+(1 row)
+
+select spqrhash_city32(4578095171357619329);
+ spqrhash_city32 
+-----------------
+      1649044171
+(1 row)
+
+select spqrhash_city32(3758192410330228818);
+ spqrhash_city32 
+-----------------
+      3159310633
+(1 row)
+
+select spqrhash_city32(7786429931097562276);
+ spqrhash_city32 
+-----------------
+       769628089
+(1 row)
+
+select spqrhash_city32(6631131768712551867);
+ spqrhash_city32 
+-----------------
+      3386795872
+(1 row)
+
+select spqrhash_city32(5464417339687627596);
+ spqrhash_city32 
+-----------------
+      3384969433
+(1 row)
+
+select spqrhash_city32(3420616448261341907);
+ spqrhash_city32 
+-----------------
+      3048786245
+(1 row)
+
+select spqrhash_city32(7546021668006587744);
+ spqrhash_city32 
+-----------------
+       858320622
+(1 row)
+
+select spqrhash_city32(4407797831546977414);
+ spqrhash_city32 
+-----------------
+       369592731
+(1 row)
+
+select spqrhash_city32(3931178847913839913);
+ spqrhash_city32 
+-----------------
+       895255050
+(1 row)
+
+select spqrhash_city32(2530889370389540393);
+ spqrhash_city32 
+-----------------
+      3979553650
+(1 row)
+
+select spqrhash_city32(7423626044538677983);
+ spqrhash_city32 
+-----------------
+      3771673785
+(1 row)
+
+select spqrhash_city32(8345381294164690671);
+ spqrhash_city32 
+-----------------
+       434138044
+(1 row)
+
+select spqrhash_city32(5485511927133049990);
+ spqrhash_city32 
+-----------------
+      2232200676
+(1 row)
+
+select spqrhash_city32(7714024911738019404);
+ spqrhash_city32 
+-----------------
+       376258162
+(1 row)
+
+select spqrhash_city32(7026317749948026075);
+ spqrhash_city32 
+-----------------
+      1858473588
+(1 row)
+
+select spqrhash_city32(3273744004895070332);
+ spqrhash_city32 
+-----------------
+      2554734857
+(1 row)
+
+select spqrhash_city32(8198951046042629796);
+ spqrhash_city32 
+-----------------
+      1041880294
+(1 row)
+
+select spqrhash_city32(5457953522816116349);
+ spqrhash_city32 
+-----------------
+      3179180051
+(1 row)
+
+select spqrhash_city32(3750803537076482112);
+ spqrhash_city32 
+-----------------
+      3149146897
+(1 row)
+
+select spqrhash_city32(223695282338721846);
+ spqrhash_city32 
+-----------------
+      2348811901
+(1 row)
+
+select spqrhash_city32(2485753134728393527);
+ spqrhash_city32 
+-----------------
+      1221036020
+(1 row)
+
+select spqrhash_city32(3500641997071037738);
+ spqrhash_city32 
+-----------------
+       591675204
+(1 row)
+
+select spqrhash_city32(6049642034663700019);
+ spqrhash_city32 
+-----------------
+      2595705823
+(1 row)
+
+select spqrhash_city32(5613515280906841777);
+ spqrhash_city32 
+-----------------
+       272672543
+(1 row)
+
+select spqrhash_city32(6869537517661693000);
+ spqrhash_city32 
+-----------------
+      3655962680
+(1 row)
+
+select spqrhash_city32(1292074778204645841);
+ spqrhash_city32 
+-----------------
+      4242149093
+(1 row)
+
+select spqrhash_city32(854864172688673965);
+ spqrhash_city32 
+-----------------
+      3682674687
+(1 row)
+
+select spqrhash_city32(6132255674868680199);
+ spqrhash_city32 
+-----------------
+       982259237
+(1 row)
+
+select spqrhash_city32(3445474997369965278);
+ spqrhash_city32 
+-----------------
+      2376582659
+(1 row)
+
+select spqrhash_city32(625181671327777737);
+ spqrhash_city32 
+-----------------
+      2481599568
+(1 row)
+
+select spqrhash_city32(1725043916591290516);
+ spqrhash_city32 
+-----------------
+      1169316198
+(1 row)
+
+select spqrhash_city32(1142017793026609068);
+ spqrhash_city32 
+-----------------
+      1675460130
+(1 row)
+
+select spqrhash_city32(8144515258159386453);
+ spqrhash_city32 
+-----------------
+      1206135244
+(1 row)
+
+select spqrhash_city32(1282470293506946764);
+ spqrhash_city32 
+-----------------
+        28513873
+(1 row)
+
+select spqrhash_city32(4748910793750767787);
+ spqrhash_city32 
+-----------------
+      1666675231
+(1 row)
+
+select spqrhash_city32(1168504447282518019);
+ spqrhash_city32 
+-----------------
+       601066456
+(1 row)
+
+select spqrhash_city32(4312207152195353490);
+ spqrhash_city32 
+-----------------
+      2060130271
+(1 row)
+
+select spqrhash_city32(5336421103575522363);
+ spqrhash_city32 
+-----------------
+      3683876044
+(1 row)
+
+select spqrhash_city32(3103754901406050027);
+ spqrhash_city32 
+-----------------
+      4118676299
+(1 row)
+
+select spqrhash_city32(4338289982089603983);
+ spqrhash_city32 
+-----------------
+      1764834794
+(1 row)
+
+select spqrhash_city32(461329623292909571);
+ spqrhash_city32 
+-----------------
+      1721504615
+(1 row)
+
+select spqrhash_city32(5629356819206795067);
+ spqrhash_city32 
+-----------------
+       983307461
+(1 row)
+
+select spqrhash_city32(6000852953469665638);
+ spqrhash_city32 
+-----------------
+      3880059673
+(1 row)
+
+select spqrhash_city32(4601309927060251314);
+ spqrhash_city32 
+-----------------
+      3619781404
+(1 row)
+
+select spqrhash_city32(7131157451293267627);
+ spqrhash_city32 
+-----------------
+      2182364822
+(1 row)
+
+select spqrhash_city32(879157152032543938);
+ spqrhash_city32 
+-----------------
+      1883001652
+(1 row)
+
+select spqrhash_city32(1110086725828573505);
+ spqrhash_city32 
+-----------------
+      2530758683
+(1 row)
+
+select spqrhash_city32(2370578664713285396);
+ spqrhash_city32 
+-----------------
+      2062598184
+(1 row)
+
+select spqrhash_city32(3752531346051501483);
+ spqrhash_city32 
+-----------------
+      2797643185
+(1 row)
+
+select spqrhash_city32(2285486975778519116);
+ spqrhash_city32 
+-----------------
+      1351211875
+(1 row)
+
+select spqrhash_city32(172827836727668344);
+ spqrhash_city32 
+-----------------
+      1968377390
+(1 row)
+
+select spqrhash_city32(3606909734080100356);
+ spqrhash_city32 
+-----------------
+      3237475148
+(1 row)
+
+select spqrhash_city32(2604939269101942780);
+ spqrhash_city32 
+-----------------
+      3027491828
+(1 row)
+
+select spqrhash_city32(499084620592926426);
+ spqrhash_city32 
+-----------------
+      1282318358
+(1 row)
+
+select spqrhash_city32(5258706467826367233);
+ spqrhash_city32 
+-----------------
+       167160460
+(1 row)
+
+select spqrhash_city32(778165431283024996);
+ spqrhash_city32 
+-----------------
+       780282878
+(1 row)
+
+select spqrhash_city32(8458848749355458976);
+ spqrhash_city32 
+-----------------
+      1536668364
+(1 row)
+
+select spqrhash_city32(1240436071383680534);
+ spqrhash_city32 
+-----------------
+      3495299865
+(1 row)
+
+select spqrhash_city32(8133642986782763787);
+ spqrhash_city32 
+-----------------
+      2658563157
+(1 row)
+
+select spqrhash_city32(8615386489611275230);
+ spqrhash_city32 
+-----------------
+      3356883605
+(1 row)
+
+select spqrhash_city32(8120151727675680144);
+ spqrhash_city32 
+-----------------
+       975488494
+(1 row)
+
+select spqrhash_city32(6308929362648886936);
+ spqrhash_city32 
+-----------------
+      2374281516
+(1 row)
+
+select spqrhash_city32(8298842445615763395);
+ spqrhash_city32 
+-----------------
+      1056844727
+(1 row)
+
+select spqrhash_city32(3201696614181987677);
+ spqrhash_city32 
+-----------------
+      2227692252
+(1 row)
+
+select spqrhash_city32(343133091489111472);
+ spqrhash_city32 
+-----------------
+      3666697815
+(1 row)
+
+select spqrhash_city32(3446512580816015906);
+ spqrhash_city32 
+-----------------
+      2672010788
+(1 row)
+
+select spqrhash_city32(6627522830954623179);
+ spqrhash_city32 
+-----------------
+      2163609146
+(1 row)
+
+select spqrhash_city32(2214028250418384569);
+ spqrhash_city32 
+-----------------
+       814044374
+(1 row)
+
+select spqrhash_city32(2302196427709305752);
+ spqrhash_city32 
+-----------------
+        28377956
+(1 row)
+
+select spqrhash_city32(3978243996910084162);
+ spqrhash_city32 
+-----------------
+       991722740
+(1 row)
+
+select spqrhash_city32(9210993604508140415);
+ spqrhash_city32 
+-----------------
+      3410745053
+(1 row)
+
+select spqrhash_city32(4168860043434161792);
+ spqrhash_city32 
+-----------------
+      2788750364
+(1 row)
+
+select spqrhash_city32(1759409985923991506);
+ spqrhash_city32 
+-----------------
+        92614737
+(1 row)
+
+select spqrhash_city32(6447294146543774670);
+ spqrhash_city32 
+-----------------
+       279114462
+(1 row)
+
+select spqrhash_city32(1025997918961560600);
+ spqrhash_city32 
+-----------------
+       296069294
+(1 row)
+
+select spqrhash_city32(5798234224235419552);
+ spqrhash_city32 
+-----------------
+      2763186308
+(1 row)
+
+select spqrhash_city32(6116373526787806262);
+ spqrhash_city32 
+-----------------
+      3633064830
+(1 row)
+
+select spqrhash_city32(6357942459983293849);
+ spqrhash_city32 
+-----------------
+      1848733594
+(1 row)
+
+select spqrhash_city32(3925406413991759979);
+ spqrhash_city32 
+-----------------
+      2757234448
+(1 row)
+
+select spqrhash_city32(3013056462046636705);
+ spqrhash_city32 
+-----------------
+      1008807082
+(1 row)
+
+select spqrhash_city32(5366519668579455931);
+ spqrhash_city32 
+-----------------
+      3351857217
+(1 row)
+
+select spqrhash_city32(1046955028351104426);
+ spqrhash_city32 
+-----------------
+      1116233376
+(1 row)
+
+select spqrhash_city32(154241088769137123);
+ spqrhash_city32 
+-----------------
+      3024360984
+(1 row)
+
+select spqrhash_city32(5957605461741798722);
+ spqrhash_city32 
+-----------------
+      1773497508
+(1 row)
+
+select spqrhash_city32(3387314123469541194);
+ spqrhash_city32 
+-----------------
+      4006677129
+(1 row)
+
+select spqrhash_city32(1988239641932521114);
+ spqrhash_city32 
+-----------------
+      1827842509
+(1 row)
+
+select spqrhash_city32(7272248579465141531);
+ spqrhash_city32 
+-----------------
+      2820523358
+(1 row)
+
+select spqrhash_city32(6269124163863133101);
+ spqrhash_city32 
+-----------------
+      2591737129
+(1 row)
+
+select spqrhash_city32(8024128642588531031);
+ spqrhash_city32 
+-----------------
+       627019507
+(1 row)
+
+select spqrhash_city32(2755419064598605245);
+ spqrhash_city32 
+-----------------
+       735870065
+(1 row)
+
+select spqrhash_city32(693295695565998914);
+ spqrhash_city32 
+-----------------
+      3690626438
+(1 row)
+
+select spqrhash_city32(4090863393701984597);
+ spqrhash_city32 
+-----------------
+      2344657321
+(1 row)
+
+select spqrhash_city32(5853906433893501907);
+ spqrhash_city32 
+-----------------
+       435813545
+(1 row)
+
+select spqrhash_city32(9011601075549943184);
+ spqrhash_city32 
+-----------------
+      3634390764
+(1 row)
+
+select spqrhash_city32(8257641272660092574);
+ spqrhash_city32 
+-----------------
+      3369255586
+(1 row)
+
+select spqrhash_city32(3490388720000402122);
+ spqrhash_city32 
+-----------------
+      3090461111
+(1 row)
+
+select spqrhash_city32(7304448546579245642);
+ spqrhash_city32 
+-----------------
+      1119048460
+(1 row)
+
+select spqrhash_city32(7800268369154719504);
+ spqrhash_city32 
+-----------------
+      2132756590
+(1 row)
+
+select spqrhash_city32(4731360511705412733);
+ spqrhash_city32 
+-----------------
+      3610027748
+(1 row)
+
+select spqrhash_city32(1673931342798293862);
+ spqrhash_city32 
+-----------------
+      3111774738
+(1 row)
+
+select spqrhash_city32(459077998667646324);
+ spqrhash_city32 
+-----------------
+       989139913
+(1 row)
+
+select spqrhash_city32(107535937605983181);
+ spqrhash_city32 
+-----------------
+      2695949266
+(1 row)
+
+select spqrhash_city32(2771264162018266132);
+ spqrhash_city32 
+-----------------
+      3214919651
+(1 row)
+
+select spqrhash_city32(6894344497634224165);
+ spqrhash_city32 
+-----------------
+      4279073240
+(1 row)
+
+select spqrhash_city32(1068027781933626576);
+ spqrhash_city32 
+-----------------
+      2851586788
+(1 row)
+
+select spqrhash_city32(147988315366212555);
+ spqrhash_city32 
+-----------------
+      3956805981
+(1 row)
+
+select spqrhash_city32(4559067297734654489);
+ spqrhash_city32 
+-----------------
+      1570645872
+(1 row)
+
+select spqrhash_city32(6588850944568800738);
+ spqrhash_city32 
+-----------------
+      2927074634
+(1 row)
+
+select spqrhash_city32(6427630118092665227);
+ spqrhash_city32 
+-----------------
+       254145548
+(1 row)
+
+select spqrhash_city32(8366091842362206417);
+ spqrhash_city32 
+-----------------
+      2255568466
+(1 row)
+
+select spqrhash_city32(5793914850810827542);
+ spqrhash_city32 
+-----------------
+      1796658973
+(1 row)
+
+select spqrhash_city32(7677956029714070284);
+ spqrhash_city32 
+-----------------
+      2483295580
+(1 row)
+
+select spqrhash_city32(372218773306172378);
+ spqrhash_city32 
+-----------------
+      1002796306
+(1 row)
+
+select spqrhash_city32(5869575233047530421);
+ spqrhash_city32 
+-----------------
+      2859009973
+(1 row)
+
+select spqrhash_city32(5084143660060440489);
+ spqrhash_city32 
+-----------------
+      3789935685
+(1 row)
+
+select spqrhash_city32(782768928093591104);
+ spqrhash_city32 
+-----------------
+      3794930906
+(1 row)
+
+select spqrhash_city32(4505212659546748498);
+ spqrhash_city32 
+-----------------
+       816643759
+(1 row)
+
+select spqrhash_city32(3902089272123758073);
+ spqrhash_city32 
+-----------------
+      2697222620
+(1 row)
+
+select spqrhash_city32(7846885435666429389);
+ spqrhash_city32 
+-----------------
+      3976002310
+(1 row)
+
+select spqrhash_city32(1396492921347990672);
+ spqrhash_city32 
+-----------------
+      3082389658
+(1 row)
+
+select spqrhash_city32(2453505231356104046);
+ spqrhash_city32 
+-----------------
+      2749213679
+(1 row)
+
+select spqrhash_city32(7987071683203517075);
+ spqrhash_city32 
+-----------------
+      1501515559
+(1 row)
+
+select spqrhash_city32(6916561943055807565);
+ spqrhash_city32 
+-----------------
+      1260899364
+(1 row)
+
+select spqrhash_city32(3992800711132712486);
+ spqrhash_city32 
+-----------------
+      3387638844
+(1 row)
+
+select spqrhash_city32(8788797799321105279);
+ spqrhash_city32 
+-----------------
+      3620595143
+(1 row)
+
+select spqrhash_city32(5424854485347372846);
+ spqrhash_city32 
+-----------------
+      1388651353
+(1 row)
+
+select spqrhash_city32(7260639985089325757);
+ spqrhash_city32 
+-----------------
+      1465749330
+(1 row)
+
+select spqrhash_city32(9213242813324092881);
+ spqrhash_city32 
+-----------------
+      1897029762
+(1 row)
+
+select spqrhash_city32(7571022946730391249);
+ spqrhash_city32 
+-----------------
+      3192615477
+(1 row)
+
+select spqrhash_city32(281010506577553550);
+ spqrhash_city32 
+-----------------
+       191174532
+(1 row)
+
+select spqrhash_city32(1637950346003626897);
+ spqrhash_city32 
+-----------------
+      3339754582
+(1 row)
+
+select spqrhash_city32(6554290266810250714);
+ spqrhash_city32 
+-----------------
+       813872326
+(1 row)
+
+select spqrhash_city32(2031056878269341212);
+ spqrhash_city32 
+-----------------
+      1153421638
+(1 row)
+
+select spqrhash_city32(6656528509960700330);
+ spqrhash_city32 
+-----------------
+        18942095
+(1 row)
+
+select spqrhash_city32(1394668061053031174);
+ spqrhash_city32 
+-----------------
+      1807622409
+(1 row)
+
+select spqrhash_city32(4402746294152741558);
+ spqrhash_city32 
+-----------------
+      1237489823
+(1 row)
+
+select spqrhash_city32(4199291986553019574);
+ spqrhash_city32 
+-----------------
+      3552155616
+(1 row)
+
+select spqrhash_city32(9116214500903163703);
+ spqrhash_city32 
+-----------------
+      2605751372
+(1 row)
+
+select spqrhash_city32(376463343636749718);
+ spqrhash_city32 
+-----------------
+      1745838952
+(1 row)
+
+select spqrhash_city32(3230358267682017095);
+ spqrhash_city32 
+-----------------
+      1008960416
+(1 row)
+
+select spqrhash_city32(4433975205369509441);
+ spqrhash_city32 
+-----------------
+       766666375
+(1 row)
+
+select spqrhash_city32(1030131174453109328);
+ spqrhash_city32 
+-----------------
+       722225406
+(1 row)
+
+select spqrhash_city32(5698254814136291252);
+ spqrhash_city32 
+-----------------
+       463706447
+(1 row)
+
+select spqrhash_city32(2262417754837755636);
+ spqrhash_city32 
+-----------------
+      1612928190
+(1 row)
+
+select spqrhash_city32(9083314970096407910);
+ spqrhash_city32 
+-----------------
+      1736946545
+(1 row)
+
+select spqrhash_city32(4525185860156263544);
+ spqrhash_city32 
+-----------------
+      2837496952
+(1 row)
+
+select spqrhash_city32(7644560162270648746);
+ spqrhash_city32 
+-----------------
+      2578947506
+(1 row)
+
+select spqrhash_city32(902178030500227450);
+ spqrhash_city32 
+-----------------
+      1890454826
+(1 row)
+
+select spqrhash_city32(2817645846125876023);
+ spqrhash_city32 
+-----------------
+      1490631700
+(1 row)
+
+select spqrhash_city32(5964903519172622432);
+ spqrhash_city32 
+-----------------
+      2284834622
+(1 row)
+
+select spqrhash_city32(1068226207692150216);
+ spqrhash_city32 
+-----------------
+      2489042062
+(1 row)
+
+select spqrhash_city32(9030877605279528849);
+ spqrhash_city32 
+-----------------
+      1367237760
+(1 row)
+
+select spqrhash_city32(712754986811834720);
+ spqrhash_city32 
+-----------------
+      2029090895
+(1 row)
+
+select spqrhash_city32(7852794942825365150);
+ spqrhash_city32 
+-----------------
+        83136412
+(1 row)
+
+select spqrhash_city32(7120690485578619591);
+ spqrhash_city32 
+-----------------
+      3666509060
+(1 row)
+
+select spqrhash_city32(2364996965044561320);
+ spqrhash_city32 
+-----------------
+      4174427700
+(1 row)
+
+select spqrhash_city32(2780659406901620161);
+ spqrhash_city32 
+-----------------
+      2760748608
+(1 row)
+
+select spqrhash_city32(4361155263630380306);
+ spqrhash_city32 
+-----------------
+      2039758518
+(1 row)
+
+select spqrhash_city32(64121544343605605);
+ spqrhash_city32 
+-----------------
+      3186380374
+(1 row)
+
+select spqrhash_city32(5996700604387792554);
+ spqrhash_city32 
+-----------------
+       190122440
+(1 row)
+
+select spqrhash_city32(5997108375788196681);
+ spqrhash_city32 
+-----------------
+      3447534128
+(1 row)
+
+select spqrhash_city32(5106552789766528070);
+ spqrhash_city32 
+-----------------
+       564076723
+(1 row)
+
+select spqrhash_city32(2061349897084611804);
+ spqrhash_city32 
+-----------------
+      1843606354
+(1 row)
+
+select spqrhash_city32(9114848533931415214);
+ spqrhash_city32 
+-----------------
+      2662305464
+(1 row)
+
+select spqrhash_city32(8602385255537346748);
+ spqrhash_city32 
+-----------------
+      2996104856
+(1 row)
+
+select spqrhash_city32(1844217954776856282);
+ spqrhash_city32 
+-----------------
+      1006464529
+(1 row)
+
+select spqrhash_city32(8237437415871424104);
+ spqrhash_city32 
+-----------------
+       714014332
+(1 row)
+
+select spqrhash_city32(352646135025613589);
+ spqrhash_city32 
+-----------------
+      1949666282
+(1 row)
+
+select spqrhash_city32(6174101834705189820);
+ spqrhash_city32 
+-----------------
+      1467209811
+(1 row)
+
+select spqrhash_city32(7292847755693407773);
+ spqrhash_city32 
+-----------------
+      2051589689
+(1 row)
+
+select spqrhash_city32(6119873012518894656);
+ spqrhash_city32 
+-----------------
+      2221939326
+(1 row)
+
+select spqrhash_city32(1620679599459578079);
+ spqrhash_city32 
+-----------------
+      2187155858
+(1 row)
+
+select spqrhash_city32(5275099313228010744);
+ spqrhash_city32 
+-----------------
+      3398963457
+(1 row)
+
+select spqrhash_city32(7282958755684761563);
+ spqrhash_city32 
+-----------------
+      1754514191
+(1 row)
+
+select spqrhash_city32(5138102047086616287);
+ spqrhash_city32 
+-----------------
+      4111675255
+(1 row)
+
+select spqrhash_city32(2796586476953798024);
+ spqrhash_city32 
+-----------------
+      3775501333
+(1 row)
+
+select spqrhash_city32(985668031286380450);
+ spqrhash_city32 
+-----------------
+      3515812544
+(1 row)
+
+select spqrhash_city32(8569609261832189551);
+ spqrhash_city32 
+-----------------
+      4098940920
+(1 row)
+
+select spqrhash_city32(4959094927621435199);
+ spqrhash_city32 
+-----------------
+      2319061810
+(1 row)
+
+select spqrhash_city32(2803566161258994193);
+ spqrhash_city32 
+-----------------
+       689383551
+(1 row)
+
+select spqrhash_city32(6071922437398611074);
+ spqrhash_city32 
+-----------------
+      3887769586
+(1 row)
+
+select spqrhash_city32(4730953507070434646);
+ spqrhash_city32 
+-----------------
+      1684865155
+(1 row)
+
+select spqrhash_city32(8804979886791407950);
+ spqrhash_city32 
+-----------------
+      1043705520
+(1 row)
+
+select spqrhash_city32(5592153178232178916);
+ spqrhash_city32 
+-----------------
+      2177073334
+(1 row)
+
+select spqrhash_city32(7680829700602986458);
+ spqrhash_city32 
+-----------------
+      3368778521
+(1 row)
+
+select spqrhash_city32(2801420591769975061);
+ spqrhash_city32 
+-----------------
+      2376361328
+(1 row)
+
+select spqrhash_city32(4682645599820055368);
+ spqrhash_city32 
+-----------------
+      3067672718
+(1 row)
+
+select spqrhash_city32(4282157815228155952);
+ spqrhash_city32 
+-----------------
+      1524882444
+(1 row)
+
+select spqrhash_city32(5084616641748836642);
+ spqrhash_city32 
+-----------------
+      4293175196
+(1 row)
+
+select spqrhash_city32(293863259170289371);
+ spqrhash_city32 
+-----------------
+      1379194946
+(1 row)
+
+select spqrhash_city32(7869575328645381004);
+ spqrhash_city32 
+-----------------
+       965380809
+(1 row)
+
+select spqrhash_city32(3842353404525154358);
+ spqrhash_city32 
+-----------------
+      1622808361
+(1 row)
+
+select spqrhash_city32(1347386237016302707);
+ spqrhash_city32 
+-----------------
+       134340970
+(1 row)
+
+select spqrhash_city32(6217020788028881293);
+ spqrhash_city32 
+-----------------
+      1401733830
+(1 row)
+
+select spqrhash_city32(306109975691557040);
+ spqrhash_city32 
+-----------------
+      2455476675
+(1 row)
+
+select spqrhash_city32(8469878043207991801);
+ spqrhash_city32 
+-----------------
+      2508867410
+(1 row)
+
+select spqrhash_city32(2889664585080788078);
+ spqrhash_city32 
+-----------------
+      3868704575
+(1 row)
+
+select spqrhash_city32(5046965582185033282);
+ spqrhash_city32 
+-----------------
+      2353691583
+(1 row)
+
+select spqrhash_city32(6027810372638824356);
+ spqrhash_city32 
+-----------------
+      2684496831
+(1 row)
+
+select spqrhash_city32(8414472147556220445);
+ spqrhash_city32 
+-----------------
+      3296367762
+(1 row)
+
+select spqrhash_city32(2775115461093057953);
+ spqrhash_city32 
+-----------------
+      1683038027
+(1 row)
+
+select spqrhash_city32(4943593282812577666);
+ spqrhash_city32 
+-----------------
+      1066997140
+(1 row)
+
+select spqrhash_city32(2755183008850617733);
+ spqrhash_city32 
+-----------------
+      3537264770
+(1 row)
+
+select spqrhash_city32(8412391863392791359);
+ spqrhash_city32 
+-----------------
+      2825321540
+(1 row)
+
+select spqrhash_city32(1264851039990596483);
+ spqrhash_city32 
+-----------------
+       713991705
+(1 row)
+
+select spqrhash_city32(982126450141274388);
+ spqrhash_city32 
+-----------------
+       374151683
+(1 row)
+
+select spqrhash_city32(3383578342605370989);
+ spqrhash_city32 
+-----------------
+      3299876010
+(1 row)
+
+select spqrhash_city32(1175504117942584399);
+ spqrhash_city32 
+-----------------
+      3084056208
+(1 row)
+
+select spqrhash_city32(5744716139874602086);
+ spqrhash_city32 
+-----------------
+      3962169563
+(1 row)
+
+select spqrhash_city32(9016045836166120932);
+ spqrhash_city32 
+-----------------
+      3334492560
+(1 row)
+
+select spqrhash_city32(4539768477089737148);
+ spqrhash_city32 
+-----------------
+      3667164121
+(1 row)
+
+select spqrhash_city32(8057471050133715943);
+ spqrhash_city32 
+-----------------
+       330458292
+(1 row)
+
+select spqrhash_city32(5917419073238623227);
+ spqrhash_city32 
+-----------------
+      2240087003
+(1 row)
+
+select spqrhash_city32(2652495547084514208);
+ spqrhash_city32 
+-----------------
+      3388470256
+(1 row)
+
+select spqrhash_city32(5880436470765685831);
+ spqrhash_city32 
+-----------------
+       134081262
+(1 row)
+
+select spqrhash_city32(6356500128630106033);
+ spqrhash_city32 
+-----------------
+      2457671278
+(1 row)
+
+select spqrhash_city32(5993580446032754479);
+ spqrhash_city32 
+-----------------
+        31794811
+(1 row)
+
+select spqrhash_city32(1924799856048572387);
+ spqrhash_city32 
+-----------------
+       380494779
+(1 row)
+
+select spqrhash_city32(2789937050396182847);
+ spqrhash_city32 
+-----------------
+      2826010689
+(1 row)
+
+select spqrhash_city32(15756948193556687);
+ spqrhash_city32 
+-----------------
+      1533863062
+(1 row)
+
+select spqrhash_city32(3333514701431425526);
+ spqrhash_city32 
+-----------------
+       965782872
+(1 row)
+
+select spqrhash_city32(5753530511721279559);
+ spqrhash_city32 
+-----------------
+      2466464855
+(1 row)
+
+select spqrhash_city32(7932005422079207544);
+ spqrhash_city32 
+-----------------
+       990895527
+(1 row)
+
+select spqrhash_city32(4310275138057605831);
+ spqrhash_city32 
+-----------------
+       298557605
+(1 row)
+
+select spqrhash_city32(4524289283949349664);
+ spqrhash_city32 
+-----------------
+      2486330476
+(1 row)
+
+select spqrhash_city32(6183612596478068963);
+ spqrhash_city32 
+-----------------
+      2913556718
+(1 row)
+
+select spqrhash_city32(2900062810665022814);
+ spqrhash_city32 
+-----------------
+      2986258815
+(1 row)
+
+select spqrhash_city32(4544223370057064336);
+ spqrhash_city32 
+-----------------
+      1366440781
+(1 row)
+
+select spqrhash_city32(1047295452536409497);
+ spqrhash_city32 
+-----------------
+      3169008759
+(1 row)
+
+select spqrhash_city32(4009448267712471741);
+ spqrhash_city32 
+-----------------
+       921113269
+(1 row)
+
+select spqrhash_city32(3218143939072381412);
+ spqrhash_city32 
+-----------------
+      3404082591
+(1 row)
+
+select spqrhash_city32(3246932118125475701);
+ spqrhash_city32 
+-----------------
+      1959297457
+(1 row)
+
+select spqrhash_city32(5325401349122089751);
+ spqrhash_city32 
+-----------------
+      3228002106
+(1 row)
+
+select spqrhash_city32(9087268826066519773);
+ spqrhash_city32 
+-----------------
+      1556173321
+(1 row)
+
+select spqrhash_city32(4897912883894656498);
+ spqrhash_city32 
+-----------------
+      3815269475
+(1 row)
+
+select spqrhash_city32(1467165033540971562);
+ spqrhash_city32 
+-----------------
+       157031678
+(1 row)
+
+select spqrhash_city32(7195213065540192184);
+ spqrhash_city32 
+-----------------
+      3994151309
+(1 row)
+
+select spqrhash_city32(7486570208869848967);
+ spqrhash_city32 
+-----------------
+      1674067493
+(1 row)
+
+select spqrhash_city32(1637098112383221565);
+ spqrhash_city32 
+-----------------
+      4261608494
+(1 row)
+
+select spqrhash_city32(4743053522144391820);
+ spqrhash_city32 
+-----------------
+      3844520493
+(1 row)
+
+select spqrhash_city32(9050249779940462353);
+ spqrhash_city32 
+-----------------
+       679446457
+(1 row)
+
+select spqrhash_city32(4645439196227486192);
+ spqrhash_city32 
+-----------------
+       807366577
+(1 row)
+
+select spqrhash_city32(8668952893198163588);
+ spqrhash_city32 
+-----------------
+      3846450226
+(1 row)
+
+select spqrhash_city32(1552270616303503293);
+ spqrhash_city32 
+-----------------
+      3696910725
+(1 row)
+
+select spqrhash_city32(1755564641675948731);
+ spqrhash_city32 
+-----------------
+      1500377312
+(1 row)
+
+select spqrhash_city32(2836184207199195504);
+ spqrhash_city32 
+-----------------
+      2491454666
+(1 row)
+
+select spqrhash_city32(302505788619037730);
+ spqrhash_city32 
+-----------------
+      1804725251
+(1 row)
+
+select spqrhash_city32(4298552351898593385);
+ spqrhash_city32 
+-----------------
+      1035787601
+(1 row)
+
+select spqrhash_city32(3143937304423139561);
+ spqrhash_city32 
+-----------------
+      2994859692
+(1 row)
+
+select spqrhash_city32(5089626574976232248);
+ spqrhash_city32 
+-----------------
+      2142633599
+(1 row)
+
+select spqrhash_city32(8594453926825065562);
+ spqrhash_city32 
+-----------------
+      4101268359
+(1 row)
+
+select spqrhash_city32(3457741496773837261);
+ spqrhash_city32 
+-----------------
+      1841774370
+(1 row)
+
+select spqrhash_city32(3913250756834470803);
+ spqrhash_city32 
+-----------------
+      2752040338
+(1 row)
+
+select spqrhash_city32(6311527724504000581);
+ spqrhash_city32 
+-----------------
+      2833033102
+(1 row)
+
+select spqrhash_city32(5859139293465858415);
+ spqrhash_city32 
+-----------------
+      2718347193
+(1 row)
+
+select spqrhash_city32(5248126570219870163);
+ spqrhash_city32 
+-----------------
+      3964363452
+(1 row)
+
+select spqrhash_city32(6510563896783394288);
+ spqrhash_city32 
+-----------------
+      3105798690
+(1 row)
+
+select spqrhash_city32(6182303707410297064);
+ spqrhash_city32 
+-----------------
+       955977559
+(1 row)
+
+select spqrhash_city32(7600371017865675619);
+ spqrhash_city32 
+-----------------
+      1019401408
+(1 row)
+
+select spqrhash_city32(1236269916311623018);
+ spqrhash_city32 
+-----------------
+       138156171
+(1 row)
+
+select spqrhash_city32(2659343668036314568);
+ spqrhash_city32 
+-----------------
+       805379564
+(1 row)
+
+select spqrhash_city32(6720535535577218220);
+ spqrhash_city32 
+-----------------
+      1780857060
+(1 row)
+
+select spqrhash_city32(8789818890690011449);
+ spqrhash_city32 
+-----------------
+      1816016356
+(1 row)
+
+select spqrhash_city32(3225537901833676629);
+ spqrhash_city32 
+-----------------
+      3101900439
+(1 row)
+
+select spqrhash_city32(8258494353651297);
+ spqrhash_city32 
+-----------------
+       927297395
+(1 row)
+
+select spqrhash_city32(5223469622830592620);
+ spqrhash_city32 
+-----------------
+      1503748912
+(1 row)
+
+select spqrhash_city32(4071011203990891724);
+ spqrhash_city32 
+-----------------
+       720294265
+(1 row)
+
+select spqrhash_city32(6952302807164597643);
+ spqrhash_city32 
+-----------------
+      1355704026
+(1 row)
+
+select spqrhash_city32(2517539330775571450);
+ spqrhash_city32 
+-----------------
+      2387774425
+(1 row)
+
+select spqrhash_city32(466996680327254066);
+ spqrhash_city32 
+-----------------
+      4171571198
+(1 row)
+
+select spqrhash_city32(7101328426519044132);
+ spqrhash_city32 
+-----------------
+      3563502209
+(1 row)
+
+select spqrhash_city32(7003707205754100744);
+ spqrhash_city32 
+-----------------
+      2631590524
+(1 row)
+
+select spqrhash_city32(9139418537794514277);
+ spqrhash_city32 
+-----------------
+       424708890
+(1 row)
+
+select spqrhash_city32(1624634132178821967);
+ spqrhash_city32 
+-----------------
+      3689532085
+(1 row)
+
+select spqrhash_city32(612963125755469015);
+ spqrhash_city32 
+-----------------
+      3452169638
+(1 row)
+
+select spqrhash_city32(253702772431568524);
+ spqrhash_city32 
+-----------------
+      1257945016
+(1 row)
+
+select spqrhash_city32(7022012399152427219);
+ spqrhash_city32 
+-----------------
+      3531037996
+(1 row)
+
+select spqrhash_city32(1681056684482552751);
+ spqrhash_city32 
+-----------------
+      1283916882
+(1 row)
+
+select spqrhash_city32(289061170773138937);
+ spqrhash_city32 
+-----------------
+      4184544322
+(1 row)
+
+select spqrhash_city32(608159091236724855);
+ spqrhash_city32 
+-----------------
+      1980121705
+(1 row)
+
+select spqrhash_city32(329555974387649627);
+ spqrhash_city32 
+-----------------
+       524914415
+(1 row)
+
+select spqrhash_city32(197286301601878159);
+ spqrhash_city32 
+-----------------
+      2748683008
+(1 row)
+
+select spqrhash_city32(8248130792477590567);
+ spqrhash_city32 
+-----------------
+      1260020186
+(1 row)
+
+select spqrhash_city32(4577532029817044484);
+ spqrhash_city32 
+-----------------
+       882035878
+(1 row)
+
+select spqrhash_city32(6826853573038719328);
+ spqrhash_city32 
+-----------------
+      2682834014
+(1 row)
+
+select spqrhash_city32(5154212809054465516);
+ spqrhash_city32 
+-----------------
+      1460119712
+(1 row)
+
+select spqrhash_city32(3761076553752059850);
+ spqrhash_city32 
+-----------------
+      1751113793
+(1 row)
+
+select spqrhash_city32(6982537215909441157);
+ spqrhash_city32 
+-----------------
+      2162001850
+(1 row)
+
+select spqrhash_city32(2097911634057444062);
+ spqrhash_city32 
+-----------------
+      2290342811
+(1 row)
+
+select spqrhash_city32(451041151579367985);
+ spqrhash_city32 
+-----------------
+      3760898223
+(1 row)
+
+select spqrhash_city32(7320338117105091158);
+ spqrhash_city32 
+-----------------
+      2000977008
+(1 row)
+
+select spqrhash_city32(846994219169525064);
+ spqrhash_city32 
+-----------------
+         2712223
+(1 row)
+
+select spqrhash_city32(4232084553439251712);
+ spqrhash_city32 
+-----------------
+      1181392635
+(1 row)
+
+select spqrhash_city32(1980752230147825908);
+ spqrhash_city32 
+-----------------
+      1747315525
+(1 row)
+
+select spqrhash_city32(9005463661281920009);
+ spqrhash_city32 
+-----------------
+      2878409338
+(1 row)
+
+select spqrhash_city32(8574082098229254883);
+ spqrhash_city32 
+-----------------
+      4078140250
+(1 row)
+
+select spqrhash_city32(9183576256535361953);
+ spqrhash_city32 
+-----------------
+      1007497820
+(1 row)
+
+select spqrhash_city32(8650931098670845876);
+ spqrhash_city32 
+-----------------
+      1802632375
+(1 row)
+
+select spqrhash_city32(2792367509642229082);
+ spqrhash_city32 
+-----------------
+      4071881152
+(1 row)
+
+select spqrhash_city32(3218830067257911415);
+ spqrhash_city32 
+-----------------
+       154497674
+(1 row)
+
+select spqrhash_city32(6191320223174581933);
+ spqrhash_city32 
+-----------------
+      4024640117
+(1 row)
+
+select spqrhash_city32(297194672657594878);
+ spqrhash_city32 
+-----------------
+      3199325505
+(1 row)
+
+select spqrhash_city32(5149833719776490640);
+ spqrhash_city32 
+-----------------
+       541245765
+(1 row)
+
+select spqrhash_city32(8059558153496415884);
+ spqrhash_city32 
+-----------------
+       642162606
+(1 row)
+
+select spqrhash_city32(3916053486002267468);
+ spqrhash_city32 
+-----------------
+      3162587419
+(1 row)
+
+select spqrhash_city32(5768696005620367422);
+ spqrhash_city32 
+-----------------
+       163799164
+(1 row)
+
+select spqrhash_city32(3899882190598323469);
+ spqrhash_city32 
+-----------------
+      1629161558
+(1 row)
+
+select spqrhash_city32(2757967643203885448);
+ spqrhash_city32 
+-----------------
+      2679888212
+(1 row)
+
+select spqrhash_city32(719593888156103008);
+ spqrhash_city32 
+-----------------
+      2725338914
+(1 row)
+
+select spqrhash_city32(3615148752404649557);
+ spqrhash_city32 
+-----------------
+      1299580920
+(1 row)
+
+select spqrhash_city32(7518746180781547602);
+ spqrhash_city32 
+-----------------
+      4010714996
+(1 row)
+
+select spqrhash_city32(2354461967414873312);
+ spqrhash_city32 
+-----------------
+      3254834603
+(1 row)
+
+select spqrhash_city32(3834637468874136941);
+ spqrhash_city32 
+-----------------
+      1812862483
+(1 row)
+
+select spqrhash_city32(1736478636253408054);
+ spqrhash_city32 
+-----------------
+      2435855477
+(1 row)
+
+select spqrhash_city32(2443782791252206362);
+ spqrhash_city32 
+-----------------
+      1503855963
+(1 row)
+
+select spqrhash_city32(5544424348219006235);
+ spqrhash_city32 
+-----------------
+      1230856834
+(1 row)
+
+select spqrhash_city32(1837048001627979917);
+ spqrhash_city32 
+-----------------
+         3704782
+(1 row)
+
+select spqrhash_city32(2399649951198047214);
+ spqrhash_city32 
+-----------------
+      3626242277
+(1 row)
+
+select spqrhash_city32(3046776319054641823);
+ spqrhash_city32 
+-----------------
+      2010583814
+(1 row)
+
+select spqrhash_city32(2093915205135338847);
+ spqrhash_city32 
+-----------------
+        21099799
+(1 row)
+
+select spqrhash_city32(9108034807520539656);
+ spqrhash_city32 
+-----------------
+      1160007007
+(1 row)
+
+select spqrhash_city32(3387166604440472371);
+ spqrhash_city32 
+-----------------
+      3717969599
+(1 row)
+
+select spqrhash_city32(3201709984523993667);
+ spqrhash_city32 
+-----------------
+      1801402085
+(1 row)
+
+select spqrhash_city32(2836605061104364228);
+ spqrhash_city32 
+-----------------
+      1356044166
+(1 row)
+
+select spqrhash_city32(1071522833713418660);
+ spqrhash_city32 
+-----------------
+      3076702720
+(1 row)
+
+select spqrhash_city32(3694125552285292941);
+ spqrhash_city32 
+-----------------
+      4019696674
+(1 row)
+
+select spqrhash_city32(1984242604437859810);
+ spqrhash_city32 
+-----------------
+      2439274452
+(1 row)
+
+select spqrhash_city32(7941253039835794340);
+ spqrhash_city32 
+-----------------
+      1273637377
+(1 row)
+
+select spqrhash_city32(6769844950725812472);
+ spqrhash_city32 
+-----------------
+      4287837063
+(1 row)
+
+select spqrhash_city32(9034652201767537092);
+ spqrhash_city32 
+-----------------
+      3880352179
+(1 row)
+
+select spqrhash_city32(3538386609848397618);
+ spqrhash_city32 
+-----------------
+      3942983488
+(1 row)
+
+select spqrhash_city32(2499588297790668406);
+ spqrhash_city32 
+-----------------
+       538453492
+(1 row)
+
+select spqrhash_city32(3455430432464595774);
+ spqrhash_city32 
+-----------------
+      3235138388
+(1 row)
+
+select spqrhash_city32(7492258708213178543);
+ spqrhash_city32 
+-----------------
+      1643951106
+(1 row)
+
+select spqrhash_city32(3903718358057526475);
+ spqrhash_city32 
+-----------------
+      3626124477
+(1 row)
+
+select spqrhash_city32(8253969071763073892);
+ spqrhash_city32 
+-----------------
+       690228702
+(1 row)
+
+select spqrhash_city32(5460969618043492810);
+ spqrhash_city32 
+-----------------
+      2557301357
+(1 row)
+
+select spqrhash_city32(5870878840692879933);
+ spqrhash_city32 
+-----------------
+      3669815456
+(1 row)
+
+select spqrhash_city32(212917401305882937);
+ spqrhash_city32 
+-----------------
+      4124428611
+(1 row)
+
+select spqrhash_city32(5539836478743956315);
+ spqrhash_city32 
+-----------------
+      3938956885
+(1 row)
+
+select spqrhash_city32(3576282110792826773);
+ spqrhash_city32 
+-----------------
+       447570208
+(1 row)
+
+select spqrhash_city32(6728384024988387978);
+ spqrhash_city32 
+-----------------
+       754496859
+(1 row)
+
+select spqrhash_city32(8835564960715011784);
+ spqrhash_city32 
+-----------------
+      3340818850
+(1 row)
+
+select spqrhash_city32(7369976452073381071);
+ spqrhash_city32 
+-----------------
+      4152735241
+(1 row)
+
+select spqrhash_city32(6222606235047610162);
+ spqrhash_city32 
+-----------------
+      1813863216
+(1 row)
+
+select spqrhash_city32(6612697107076504213);
+ spqrhash_city32 
+-----------------
+      1838306692
+(1 row)
+
+select spqrhash_city32(7609128672371502737);
+ spqrhash_city32 
+-----------------
+      2165872213
+(1 row)
+
+select spqrhash_city32(1237099204890094941);
+ spqrhash_city32 
+-----------------
+      1582249190
+(1 row)
+
+select spqrhash_city32(2291184792165401924);
+ spqrhash_city32 
+-----------------
+      2363373237
+(1 row)
+
+select spqrhash_city32(3631299726117633171);
+ spqrhash_city32 
+-----------------
+      4030582355
+(1 row)
+
+select spqrhash_city32(1638383260785760094);
+ spqrhash_city32 
+-----------------
+       583718365
+(1 row)
+
+select spqrhash_city32(4634866244994695815);
+ spqrhash_city32 
+-----------------
+      1612330869
+(1 row)
+
+select spqrhash_city32(8528774164860416974);
+ spqrhash_city32 
+-----------------
+      3929411590
+(1 row)
+
+select spqrhash_city32(3057645074727400852);
+ spqrhash_city32 
+-----------------
+      2775543537
+(1 row)
+
+select spqrhash_city32(398971665307292715);
+ spqrhash_city32 
+-----------------
+      1426000918
+(1 row)
+
+select spqrhash_city32(8569670138797401310);
+ spqrhash_city32 
+-----------------
+      4255733965
+(1 row)
+
+select spqrhash_city32(1178935639920991440);
+ spqrhash_city32 
+-----------------
+      1885467315
+(1 row)
+
+select spqrhash_city32(630693894050684063);
+ spqrhash_city32 
+-----------------
+       535909068
+(1 row)
+
+select spqrhash_city32(6562608653478528586);
+ spqrhash_city32 
+-----------------
+      3286277640
+(1 row)
+
+select spqrhash_city32(4518533621727470231);
+ spqrhash_city32 
+-----------------
+       395525449
+(1 row)
+
+select spqrhash_city32(2860390783541978779);
+ spqrhash_city32 
+-----------------
+      2685438527
+(1 row)
+
+select spqrhash_city32(6189157467112890449);
+ spqrhash_city32 
+-----------------
+      1719576437
+(1 row)
+
+select spqrhash_city32(5974383849786965643);
+ spqrhash_city32 
+-----------------
+      2412204141
+(1 row)
+
+select spqrhash_city32(998207354266520389);
+ spqrhash_city32 
+-----------------
+      1408961779
+(1 row)
+
+select spqrhash_city32(7724708236736539141);
+ spqrhash_city32 
+-----------------
+      4126785068
+(1 row)
+
+select spqrhash_city32(7423054664675686879);
+ spqrhash_city32 
+-----------------
+      3249314078
+(1 row)
+
+select spqrhash_city32(8477440107475379670);
+ spqrhash_city32 
+-----------------
+      4104550159
+(1 row)
+
+select spqrhash_city32(4585792980173151312);
+ spqrhash_city32 
+-----------------
+       559267817
+(1 row)
+
+select spqrhash_city32(418907167737835423);
+ spqrhash_city32 
+-----------------
+      3487888905
+(1 row)
+
+select spqrhash_city32(7947205910455667159);
+ spqrhash_city32 
+-----------------
+       657983783
+(1 row)
+
+select spqrhash_city32(938053902388515390);
+ spqrhash_city32 
+-----------------
+       186281909
+(1 row)
+
+select spqrhash_city32(7876207907746622650);
+ spqrhash_city32 
+-----------------
+      2083601107
+(1 row)
+
+select spqrhash_city32(6097364555227322943);
+ spqrhash_city32 
+-----------------
+       354698673
+(1 row)
+
+select spqrhash_city32(3607522782917893967);
+ spqrhash_city32 
+-----------------
+       866327293
+(1 row)
+
+select spqrhash_city32(444535724161377252);
+ spqrhash_city32 
+-----------------
+      3586110908
+(1 row)
+
+select spqrhash_city32(5211908796506119567);
+ spqrhash_city32 
+-----------------
+      2427842721
+(1 row)
+
+select spqrhash_city32(8997879541574728280);
+ spqrhash_city32 
+-----------------
+      3227067191
+(1 row)
+
+select spqrhash_city32(3917245100037092176);
+ spqrhash_city32 
+-----------------
+      3295362442
+(1 row)
+
+select spqrhash_city32(218316258106911255);
+ spqrhash_city32 
+-----------------
+      2220211972
+(1 row)
+
+select spqrhash_city32(2772406302728458102);
+ spqrhash_city32 
+-----------------
+      2094799895
+(1 row)
+
+select spqrhash_city32(4362490201599089443);
+ spqrhash_city32 
+-----------------
+      4088755212
+(1 row)
+
+select spqrhash_city32(2921624090418686390);
+ spqrhash_city32 
+-----------------
+      2860417189
+(1 row)
+
+select spqrhash_city32(4913084777942893688);
+ spqrhash_city32 
+-----------------
+       100401384
+(1 row)
+
+select spqrhash_city32(8954945856764102303);
+ spqrhash_city32 
+-----------------
+      2466781092
+(1 row)
+
+select spqrhash_city32(7306335937454586450);
+ spqrhash_city32 
+-----------------
+      2416840143
+(1 row)
+
+select spqrhash_city32(3612203761057642979);
+ spqrhash_city32 
+-----------------
+       399766139
+(1 row)
+
+select spqrhash_city32(739365945480198602);
+ spqrhash_city32 
+-----------------
+      2129858887
+(1 row)
+
+select spqrhash_city32(1483430334482811671);
+ spqrhash_city32 
+-----------------
+      1980605055
+(1 row)
+
+select spqrhash_city32(8704738989594321892);
+ spqrhash_city32 
+-----------------
+      3946116803
+(1 row)
+
+select spqrhash_city32(1990433920504940514);
+ spqrhash_city32 
+-----------------
+      2995850822
+(1 row)
+
+select spqrhash_city32(5067363401650656303);
+ spqrhash_city32 
+-----------------
+       129483096
+(1 row)
+
+select spqrhash_city32(2488846347287085337);
+ spqrhash_city32 
+-----------------
+      2893393852
+(1 row)
+
+select spqrhash_city32(3139635567052471903);
+ spqrhash_city32 
+-----------------
+      1526705591
+(1 row)
+
+select spqrhash_city32(260841800804194351);
+ spqrhash_city32 
+-----------------
+      1290061295
+(1 row)
+
+select spqrhash_city32(6679877217611237008);
+ spqrhash_city32 
+-----------------
+      2138384565
+(1 row)
+
+select spqrhash_city32(4851414441699651527);
+ spqrhash_city32 
+-----------------
+      2179877777
+(1 row)
+
+select spqrhash_city32(6077664932167087264);
+ spqrhash_city32 
+-----------------
+      2780424695
+(1 row)
+
+select spqrhash_city32(5621228417783819658);
+ spqrhash_city32 
+-----------------
+      1319956680
+(1 row)
+
+select spqrhash_city32(2748846046156722353);
+ spqrhash_city32 
+-----------------
+      3096405386
+(1 row)
+
+select spqrhash_city32(3282995387881552768);
+ spqrhash_city32 
+-----------------
+       733583817
+(1 row)
+
+select spqrhash_city32(4993712118476430639);
+ spqrhash_city32 
+-----------------
+      3806434068
+(1 row)
+
+select spqrhash_city32(4086514133678005346);
+ spqrhash_city32 
+-----------------
+      3201109918
+(1 row)
+
+select spqrhash_city32(186779207125035700);
+ spqrhash_city32 
+-----------------
+       847724989
+(1 row)
+
+select spqrhash_city32(3035184234616999623);
+ spqrhash_city32 
+-----------------
+       534760038
+(1 row)
+
+select spqrhash_city32(3469018100193299163);
+ spqrhash_city32 
+-----------------
+      1136752454
+(1 row)
+
+select spqrhash_city32(7368961510401432575);
+ spqrhash_city32 
+-----------------
+      3369698319
+(1 row)
+
+select spqrhash_city32(6045463284700952731);
+ spqrhash_city32 
+-----------------
+      1795870651
+(1 row)
+
+select spqrhash_city32(5784263002186887075);
+ spqrhash_city32 
+-----------------
+      2790686440
+(1 row)
+
+select spqrhash_city32(3054542816448604925);
+ spqrhash_city32 
+-----------------
+      4024406356
+(1 row)
+
+select spqrhash_city32(3604628575866631057);
+ spqrhash_city32 
+-----------------
+       197237849
+(1 row)
+
+select spqrhash_city32(7474847211456000557);
+ spqrhash_city32 
+-----------------
+      3906757832
+(1 row)
+
+select spqrhash_city32(6061181422824049125);
+ spqrhash_city32 
+-----------------
+        92246531
+(1 row)
+
+select spqrhash_city32(2332876328057594708);
+ spqrhash_city32 
+-----------------
+      3157828948
+(1 row)
+
+select spqrhash_city32(6254563697665420096);
+ spqrhash_city32 
+-----------------
+      1171128077
+(1 row)
+
+select spqrhash_city32(8356738405613501111);
+ spqrhash_city32 
+-----------------
+      3422118037
+(1 row)
+
+select spqrhash_city32(1908480023298298356);
+ spqrhash_city32 
+-----------------
+       902805097
+(1 row)
+
+select spqrhash_city32(7734533833463151497);
+ spqrhash_city32 
+-----------------
+      1427453416
+(1 row)
+
+select spqrhash_city32(6400011393061937855);
+ spqrhash_city32 
+-----------------
+       626177268
+(1 row)
+
+select spqrhash_city32(8984956207333393973);
+ spqrhash_city32 
+-----------------
+       867249193
+(1 row)
+
+select spqrhash_city32(8029086462345648919);
+ spqrhash_city32 
+-----------------
+      2274334436
+(1 row)
+
+select spqrhash_city32(4529177980380519978);
+ spqrhash_city32 
+-----------------
+       172198140
+(1 row)
+
+select spqrhash_city32(2903002517633196827);
+ spqrhash_city32 
+-----------------
+      1140130747
+(1 row)
+
+select spqrhash_city32(810784624496424308);
+ spqrhash_city32 
+-----------------
+      1219121411
+(1 row)
+
+select spqrhash_city32(4370116291773354654);
+ spqrhash_city32 
+-----------------
+      1022779621
+(1 row)
+
+select spqrhash_city32(5235993571380863276);
+ spqrhash_city32 
+-----------------
+      2643805663
+(1 row)
+
+select spqrhash_city32(2148937281964449985);
+ spqrhash_city32 
+-----------------
+      2239820879
+(1 row)
+
+select spqrhash_city32(1013071448142360443);
+ spqrhash_city32 
+-----------------
+       424079230
+(1 row)
+
+select spqrhash_city32(379000025324733303);
+ spqrhash_city32 
+-----------------
+      2385010719
+(1 row)
+
+select spqrhash_city32(3248507242227250959);
+ spqrhash_city32 
+-----------------
+      1117834821
+(1 row)
+
+select spqrhash_city32(9095305428510477099);
+ spqrhash_city32 
+-----------------
+       837946597
+(1 row)
+
+select spqrhash_city32(7470873313505935830);
+ spqrhash_city32 
+-----------------
+      2678306602
+(1 row)
+
+select spqrhash_city32(7308443556066286292);
+ spqrhash_city32 
+-----------------
+      3895410492
+(1 row)
+
+select spqrhash_city32(6955030074482841692);
+ spqrhash_city32 
+-----------------
+      2082929117
+(1 row)
+
+select spqrhash_city32(5882450001292989358);
+ spqrhash_city32 
+-----------------
+       587231400
+(1 row)
+
+select spqrhash_city32(8198044692142078895);
+ spqrhash_city32 
+-----------------
+      1250380241
+(1 row)
+
+select spqrhash_city32(8439320793294568587);
+ spqrhash_city32 
+-----------------
+      2293909861
+(1 row)
+
+select spqrhash_city32(986238704827010471);
+ spqrhash_city32 
+-----------------
+       333366556
+(1 row)
+
+select spqrhash_city32(4131524515069378233);
+ spqrhash_city32 
+-----------------
+      2333195168
+(1 row)
+
+select spqrhash_city32(441918615740020594);
+ spqrhash_city32 
+-----------------
+      2130846395
+(1 row)
+
+select spqrhash_city32(5619614073136793406);
+ spqrhash_city32 
+-----------------
+       602018185
+(1 row)
+
+select spqrhash_city32(8960432345944400358);
+ spqrhash_city32 
+-----------------
+      1613668792
+(1 row)
+
+select spqrhash_city32(5866950808458322800);
+ spqrhash_city32 
+-----------------
+      2828689362
+(1 row)
+
+select spqrhash_city32(4605879133092893835);
+ spqrhash_city32 
+-----------------
+      2160198797
+(1 row)
+
+select spqrhash_city32(1209225427197520125);
+ spqrhash_city32 
+-----------------
+       535902912
+(1 row)
+
+select spqrhash_city32(2217560290976848910);
+ spqrhash_city32 
+-----------------
+      3616527042
+(1 row)
+
+select spqrhash_city32(7260244073803874616);
+ spqrhash_city32 
+-----------------
+      2157504350
+(1 row)
+
+select spqrhash_city32(970256494689285981);
+ spqrhash_city32 
+-----------------
+      4244951643
+(1 row)
+
+select spqrhash_city32(4971987063635470322);
+ spqrhash_city32 
+-----------------
+      1434477213
+(1 row)
+
+select spqrhash_city32(8602248932433320060);
+ spqrhash_city32 
+-----------------
+       704974321
+(1 row)
+
+select spqrhash_city32(2638916389832191089);
+ spqrhash_city32 
+-----------------
+      2616164590
+(1 row)
+
+select spqrhash_city32(632061681672553392);
+ spqrhash_city32 
+-----------------
+      3325340598
+(1 row)
+
+select spqrhash_city32(6110375919961622103);
+ spqrhash_city32 
+-----------------
+      3173373352
+(1 row)
+
+select spqrhash_city32(5492626973054944605);
+ spqrhash_city32 
+-----------------
+      3065683101
+(1 row)
+
+select spqrhash_city32(379204891834590527);
+ spqrhash_city32 
+-----------------
+      1834190947
+(1 row)
+
+select spqrhash_city32(6966256394219120779);
+ spqrhash_city32 
+-----------------
+      1658192902
+(1 row)
+
+select spqrhash_city32(6686160995573525920);
+ spqrhash_city32 
+-----------------
+      3988833961
+(1 row)
+
+select spqrhash_city32(1493772961119221743);
+ spqrhash_city32 
+-----------------
+       300322170
+(1 row)
+
+select spqrhash_city32(1577327689054116003);
+ spqrhash_city32 
+-----------------
+      4167230994
+(1 row)
+
+select spqrhash_city32(7648629666248168980);
+ spqrhash_city32 
+-----------------
+      3513947989
+(1 row)
+
+select spqrhash_city32(4353508649940537911);
+ spqrhash_city32 
+-----------------
+      2076751892
+(1 row)
+
+select spqrhash_city32(5233139878184301617);
+ spqrhash_city32 
+-----------------
+       491948443
+(1 row)
+
+select spqrhash_city32(6046324690446376500);
+ spqrhash_city32 
+-----------------
+      4117183953
+(1 row)
+
+select spqrhash_city32(6443513373474543429);
+ spqrhash_city32 
+-----------------
+      3679946447
+(1 row)
+
+select spqrhash_city32(1840386660105260571);
+ spqrhash_city32 
+-----------------
+       177284100
+(1 row)
+
+select spqrhash_city32(5542656431273139588);
+ spqrhash_city32 
+-----------------
+      1097796288
+(1 row)
+
+select spqrhash_city32(8649489031280492044);
+ spqrhash_city32 
+-----------------
+      2221016699
+(1 row)
+
+select spqrhash_city32(2795703646173097787);
+ spqrhash_city32 
+-----------------
+      2755119647
+(1 row)
+
+select spqrhash_city32(7068609192784966977);
+ spqrhash_city32 
+-----------------
+      4123102192
+(1 row)
+
+select spqrhash_city32(7157687287590538894);
+ spqrhash_city32 
+-----------------
+       246923481
+(1 row)
+
+select spqrhash_city32(9005609974245348038);
+ spqrhash_city32 
+-----------------
+      3524731626
+(1 row)
+
+select spqrhash_city32(47429049761296042);
+ spqrhash_city32 
+-----------------
+       198061875
+(1 row)
+
+select spqrhash_city32(1378734410185440667);
+ spqrhash_city32 
+-----------------
+      1415215009
+(1 row)
+
+select spqrhash_city32(1586807126142476461);
+ spqrhash_city32 
+-----------------
+      3149618657
+(1 row)
+
+select spqrhash_city32(8204201105513689681);
+ spqrhash_city32 
+-----------------
+      1900795682
+(1 row)
+
+select spqrhash_city32(4075642918133146445);
+ spqrhash_city32 
+-----------------
+      3907745773
+(1 row)
+
+select spqrhash_city32(6188721583289151887);
+ spqrhash_city32 
+-----------------
+      1883765527
+(1 row)
+
+select spqrhash_city32(2119075087745459878);
+ spqrhash_city32 
+-----------------
+       807020006
+(1 row)
+
+select spqrhash_city32(6528228982248721409);
+ spqrhash_city32 
+-----------------
+      1522435786
+(1 row)
+
+select spqrhash_city32(6112036819594221843);
+ spqrhash_city32 
+-----------------
+      1381386885
+(1 row)
+
+select spqrhash_city32(2518913517279675953);
+ spqrhash_city32 
+-----------------
+       128847112
+(1 row)
+
+select spqrhash_city32(4148641526391571406);
+ spqrhash_city32 
+-----------------
+        37000571
+(1 row)
+
+select spqrhash_city32(2038595071135799025);
+ spqrhash_city32 
+-----------------
+      2714561889
+(1 row)
+
+select spqrhash_city32(2356687196621411606);
+ spqrhash_city32 
+-----------------
+      1738368883
+(1 row)
+
+select spqrhash_city32(6028479047413860140);
+ spqrhash_city32 
+-----------------
+       610609868
+(1 row)
+
+select spqrhash_city32(5222264243325891087);
+ spqrhash_city32 
+-----------------
+      1420504652
+(1 row)
+
+select spqrhash_city32(8701305548853554068);
+ spqrhash_city32 
+-----------------
+      2001764829
+(1 row)
+
+select spqrhash_city32(6873655944828975923);
+ spqrhash_city32 
+-----------------
+      4114219333
+(1 row)
+
+select spqrhash_city32(4547901740072901395);
+ spqrhash_city32 
+-----------------
+       550303965
+(1 row)
+
+select spqrhash_city32(7345007991823591678);
+ spqrhash_city32 
+-----------------
+      2403517998
+(1 row)
+
+select spqrhash_city32(6578542713444860329);
+ spqrhash_city32 
+-----------------
+      3258381420
+(1 row)
+
+select spqrhash_city32(4239941676116823517);
+ spqrhash_city32 
+-----------------
+      1358853203
+(1 row)
+
+select spqrhash_city32(590742241147115277);
+ spqrhash_city32 
+-----------------
+      1105647271
+(1 row)
+
+select spqrhash_city32(7957092062902840409);
+ spqrhash_city32 
+-----------------
+      4040556811
+(1 row)
+
+select spqrhash_city32(810002270977887853);
+ spqrhash_city32 
+-----------------
+      2230619569
+(1 row)
+
+select spqrhash_city32(7252024714048067791);
+ spqrhash_city32 
+-----------------
+      2086923993
+(1 row)
+
+select spqrhash_city32(7953313493478256508);
+ spqrhash_city32 
+-----------------
+      2797680716
+(1 row)
+
+select spqrhash_city32(6562760246902399869);
+ spqrhash_city32 
+-----------------
+      2508619126
+(1 row)
+
+select spqrhash_city32(639363370913565130);
+ spqrhash_city32 
+-----------------
+      2202829784
+(1 row)
+
+select spqrhash_city32(12343675611687762);
+ spqrhash_city32 
+-----------------
+      3719868518
+(1 row)
+
+select spqrhash_city32(284314642771010425);
+ spqrhash_city32 
+-----------------
+       644615679
+(1 row)
+
+select spqrhash_city32(6058030917652542757);
+ spqrhash_city32 
+-----------------
+      1060479100
+(1 row)
+
+select spqrhash_city32(4592920969287548075);
+ spqrhash_city32 
+-----------------
+      1303858843
+(1 row)
+
+select spqrhash_city32(5733432166453236835);
+ spqrhash_city32 
+-----------------
+      3428369792
+(1 row)
+
+select spqrhash_city32(1844833383062209889);
+ spqrhash_city32 
+-----------------
+      3084678192
+(1 row)
+
+select spqrhash_city32(2523935218000683723);
+ spqrhash_city32 
+-----------------
+      2198370622
+(1 row)
+
+select spqrhash_city32(2500460790808498285);
+ spqrhash_city32 
+-----------------
+      2094338864
+(1 row)
+
+select spqrhash_city32(3462162344853008425);
+ spqrhash_city32 
+-----------------
+      4041164818
+(1 row)
+
+select spqrhash_city32(6722597885696241579);
+ spqrhash_city32 
+-----------------
+      1373552667
+(1 row)
+
+select spqrhash_city32(4097561707100385506);
+ spqrhash_city32 
+-----------------
+      1682289789
+(1 row)
+
+select spqrhash_city32(5211563300555491521);
+ spqrhash_city32 
+-----------------
+        95341309
+(1 row)
+
+select spqrhash_city32(4990417822929083683);
+ spqrhash_city32 
+-----------------
+       758949658
+(1 row)
+
+select spqrhash_city32(6216951875508039887);
+ spqrhash_city32 
+-----------------
+       123987705
+(1 row)
+
+select spqrhash_city32(4641786139882960463);
+ spqrhash_city32 
+-----------------
+      1669012542
+(1 row)
+
+select spqrhash_city32(6589815324712879119);
+ spqrhash_city32 
+-----------------
+      1433346562
+(1 row)
+
+select spqrhash_city32(9138140649628939057);
+ spqrhash_city32 
+-----------------
+      2102189219
+(1 row)
+
+select spqrhash_city32(6362298121339330877);
+ spqrhash_city32 
+-----------------
+       748594050
+(1 row)
+
+select spqrhash_city32(8306247384561566214);
+ spqrhash_city32 
+-----------------
+      1946264374
+(1 row)
+
+select spqrhash_city32(2846769644982452200);
+ spqrhash_city32 
+-----------------
+      4209727137
+(1 row)
+
+select spqrhash_city32(865835842622730711);
+ spqrhash_city32 
+-----------------
+       887138336
+(1 row)
+
+select spqrhash_city32(5099970224519651681);
+ spqrhash_city32 
+-----------------
+       321207727
+(1 row)
+
+select spqrhash_city32(3733796971957795737);
+ spqrhash_city32 
+-----------------
+       836998145
+(1 row)
+
+select spqrhash_city32(6620709846829133533);
+ spqrhash_city32 
+-----------------
+      1159590571
+(1 row)
+
+select spqrhash_city32(5883086316461806966);
+ spqrhash_city32 
+-----------------
+      2120975546
+(1 row)
+
+select spqrhash_city32(6900672944914510587);
+ spqrhash_city32 
+-----------------
+       710516311
+(1 row)
+
+select spqrhash_city32(4167547058859796938);
+ spqrhash_city32 
+-----------------
+      4053181206
+(1 row)
+
+select spqrhash_city32(4737264923286850683);
+ spqrhash_city32 
+-----------------
+       523606892
+(1 row)
+
+select spqrhash_city32(5404520789228733169);
+ spqrhash_city32 
+-----------------
+      2535440752
+(1 row)
+
+select spqrhash_city32(2469285198138666950);
+ spqrhash_city32 
+-----------------
+      2680677923
+(1 row)
+
+select spqrhash_city32(7181795754452988932);
+ spqrhash_city32 
+-----------------
+      3790901232
+(1 row)
+
+select spqrhash_city32(8612506723171989894);
+ spqrhash_city32 
+-----------------
+       511267906
+(1 row)
+
+select spqrhash_city32(8397363230115326140);
+ spqrhash_city32 
+-----------------
+      3234234166
+(1 row)
+
+select spqrhash_city32(5237699064815223964);
+ spqrhash_city32 
+-----------------
+      4165428482
+(1 row)
+
+select spqrhash_city32(1061174244176122931);
+ spqrhash_city32 
+-----------------
+      3508508419
+(1 row)
+
+select spqrhash_city32(2948802742651745136);
+ spqrhash_city32 
+-----------------
+      3118540224
+(1 row)
+
+select spqrhash_city32(1618204827986376075);
+ spqrhash_city32 
+-----------------
+      2746769772
+(1 row)
+
+select spqrhash_city32(3057362901715978834);
+ spqrhash_city32 
+-----------------
+      4140254604
+(1 row)
+
+select spqrhash_city32(4237371165267266997);
+ spqrhash_city32 
+-----------------
+      1180602184
+(1 row)
+
+select spqrhash_city32(6685426386345315115);
+ spqrhash_city32 
+-----------------
+        84309527
+(1 row)
+
+select spqrhash_city32(2438914645766802426);
+ spqrhash_city32 
+-----------------
+      2299335650
+(1 row)
+
+select spqrhash_city32(5745280507749059639);
+ spqrhash_city32 
+-----------------
+       499233501
+(1 row)
+
+select spqrhash_city32(1628664638130676534);
+ spqrhash_city32 
+-----------------
+       124740592
+(1 row)
+
+select spqrhash_city32(2223425439692134442);
+ spqrhash_city32 
+-----------------
+      2153603467
+(1 row)
+
+select spqrhash_city32(6620889383441755666);
+ spqrhash_city32 
+-----------------
+      1056759919
+(1 row)
+
+select spqrhash_city32(7660549948301809417);
+ spqrhash_city32 
+-----------------
+      2587169610
+(1 row)
+
+select spqrhash_city32(3646797968573807404);
+ spqrhash_city32 
+-----------------
+      3542241046
+(1 row)
+
+select spqrhash_city32(6275988460113656877);
+ spqrhash_city32 
+-----------------
+       806456261
+(1 row)
+
+select spqrhash_city32(688646975239984755);
+ spqrhash_city32 
+-----------------
+       995757979
+(1 row)
+
+select spqrhash_city32(1201885471188995958);
+ spqrhash_city32 
+-----------------
+       702561330
+(1 row)
+
+select spqrhash_city32(6322788263370451721);
+ spqrhash_city32 
+-----------------
+      2157248733
+(1 row)
+
+select spqrhash_city32(926643905119237708);
+ spqrhash_city32 
+-----------------
+      3049613047
+(1 row)
+
+select spqrhash_city32(8176834534646950875);
+ spqrhash_city32 
+-----------------
+      1739335927
+(1 row)
+
+select spqrhash_city32(659993478237176479);
+ spqrhash_city32 
+-----------------
+      1336920505
+(1 row)
+
+select spqrhash_city32(6139862099915295199);
+ spqrhash_city32 
+-----------------
+      3555629418
+(1 row)
+
+select spqrhash_city32(5107258028950731066);
+ spqrhash_city32 
+-----------------
+      2722579281
+(1 row)
+
+select spqrhash_city32(1099434661952824488);
+ spqrhash_city32 
+-----------------
+      1747269226
+(1 row)
+
+select spqrhash_city32(2105104298279072126);
+ spqrhash_city32 
+-----------------
+       326877191
+(1 row)
+
+select spqrhash_city32(8086954275652238891);
+ spqrhash_city32 
+-----------------
+       928104350
+(1 row)
+
+select spqrhash_city32(7871739529871792086);
+ spqrhash_city32 
+-----------------
+      2649413168
+(1 row)
+
+select spqrhash_city32(2600428440723772506);
+ spqrhash_city32 
+-----------------
+       491764570
+(1 row)
+
+select spqrhash_city32(8363854733897943681);
+ spqrhash_city32 
+-----------------
+      3763836326
+(1 row)
+
+select spqrhash_city32(1050405525035293745);
+ spqrhash_city32 
+-----------------
+      3401147612
+(1 row)
+
+select spqrhash_city32(4939883032856320346);
+ spqrhash_city32 
+-----------------
+       628986305
+(1 row)
+
+select spqrhash_city32(3163860217483571647);
+ spqrhash_city32 
+-----------------
+      1362426406
+(1 row)
+
+select spqrhash_city32(6339069031513841660);
+ spqrhash_city32 
+-----------------
+      4074049616
+(1 row)
+
+select spqrhash_city32(2823848177613197694);
+ spqrhash_city32 
+-----------------
+      1620121794
+(1 row)
+
+select spqrhash_city32(8202451137212087241);
+ spqrhash_city32 
+-----------------
+       329338367
+(1 row)
+
+select spqrhash_city32(9202241296555883302);
+ spqrhash_city32 
+-----------------
+      3758519369
+(1 row)
+
+select spqrhash_city32(8145368220902455029);
+ spqrhash_city32 
+-----------------
+      3425469814
+(1 row)
+
+select spqrhash_city32(3980089725540307702);
+ spqrhash_city32 
+-----------------
+      2138399123
+(1 row)
+
+select spqrhash_city32(3886859144301197803);
+ spqrhash_city32 
+-----------------
+      2066470709
+(1 row)
+
+select spqrhash_city32(8765621769400956214);
+ spqrhash_city32 
+-----------------
+       199755284
+(1 row)
+
+select spqrhash_city32(7230470573495910687);
+ spqrhash_city32 
+-----------------
+      3922322786
+(1 row)
+
+select spqrhash_city32(7759741973245679200);
+ spqrhash_city32 
+-----------------
+      2450526835
+(1 row)
+
+select spqrhash_city32(7638150731418709612);
+ spqrhash_city32 
+-----------------
+      2463283743
+(1 row)
+
+select spqrhash_city32(1969049349176276141);
+ spqrhash_city32 
+-----------------
+      2110518880
+(1 row)
+
+select spqrhash_city32(7423629111798902858);
+ spqrhash_city32 
+-----------------
+      3340088056
+(1 row)
+
+select spqrhash_city32(2543682629289482695);
+ spqrhash_city32 
+-----------------
+      1972958781
+(1 row)
+
+select spqrhash_city32(287120741254556437);
+ spqrhash_city32 
+-----------------
+      1771487280
+(1 row)
+
+select spqrhash_city32(9193973642546415961);
+ spqrhash_city32 
+-----------------
+      1870264554
+(1 row)
+
+select spqrhash_city32(503551913154853723);
+ spqrhash_city32 
+-----------------
+      3592281636
+(1 row)
+
+select spqrhash_city32(7865856420229376435);
+ spqrhash_city32 
+-----------------
+      3817877274
+(1 row)
+
+select spqrhash_city32(8084135826346994953);
+ spqrhash_city32 
+-----------------
+       489665585
+(1 row)
+
+select spqrhash_city32(563453817033924951);
+ spqrhash_city32 
+-----------------
+       998339745
+(1 row)
+
+select spqrhash_city32(2001173725470682601);
+ spqrhash_city32 
+-----------------
+       934832598
+(1 row)
+
+select spqrhash_city32(1819640803317285270);
+ spqrhash_city32 
+-----------------
+      1512784887
+(1 row)
+
+select spqrhash_city32(5033882301747811182);
+ spqrhash_city32 
+-----------------
+      4055272626
+(1 row)
+
+select spqrhash_city32(3108767659774400886);
+ spqrhash_city32 
+-----------------
+       249886303
+(1 row)
+
+select spqrhash_city32(8957977571071589614);
+ spqrhash_city32 
+-----------------
+      1713870638
+(1 row)
+
+select spqrhash_city32(3626663564910958664);
+ spqrhash_city32 
+-----------------
+       559195347
+(1 row)
+
+select spqrhash_city32(818841556459918914);
+ spqrhash_city32 
+-----------------
+      2417509803
+(1 row)
+
+select spqrhash_city32(6532025179636114733);
+ spqrhash_city32 
+-----------------
+      2838938821
+(1 row)
+
+select spqrhash_city32(8708348612725748176);
+ spqrhash_city32 
+-----------------
+      3944456584
+(1 row)
+
+select spqrhash_city32(9109995720113326431);
+ spqrhash_city32 
+-----------------
+       411254718
+(1 row)
+
+select spqrhash_city32(5943577860546780959);
+ spqrhash_city32 
+-----------------
+      3481516972
+(1 row)
+
+select spqrhash_city32(938016243163745684);
+ spqrhash_city32 
+-----------------
+      1190059616
+(1 row)
+
+select spqrhash_city32(540518944389069677);
+ spqrhash_city32 
+-----------------
+      3504842568
+(1 row)
+
+select spqrhash_city32(6702357702497700875);
+ spqrhash_city32 
+-----------------
+      1296591653
+(1 row)
+
+select spqrhash_city32(8410814738546013917);
+ spqrhash_city32 
+-----------------
+       517400935
+(1 row)
+
+select spqrhash_city32(5995367497496284309);
+ spqrhash_city32 
+-----------------
+      2989920797
+(1 row)
+
+select spqrhash_city32(6819293466340914675);
+ spqrhash_city32 
+-----------------
+      4169588022
+(1 row)
+
+select spqrhash_city32(4263013872292737405);
+ spqrhash_city32 
+-----------------
+      1402529482
+(1 row)
+
+select spqrhash_city32(9191916358371181839);
+ spqrhash_city32 
+-----------------
+      1765083402
+(1 row)
+
+select spqrhash_city32(3995538490027258618);
+ spqrhash_city32 
+-----------------
+      1177071098
+(1 row)
+
+select spqrhash_city32(6538119905525765154);
+ spqrhash_city32 
+-----------------
+       308543359
+(1 row)
+
+select spqrhash_city32(1964433420517791438);
+ spqrhash_city32 
+-----------------
+      3900209140
+(1 row)
+
+select spqrhash_city32(3852827215227688884);
+ spqrhash_city32 
+-----------------
+       543380323
+(1 row)
+
+select spqrhash_city32(2447036806688520270);
+ spqrhash_city32 
+-----------------
+       785467478
+(1 row)
+
+select spqrhash_city32(3579972939876863092);
+ spqrhash_city32 
+-----------------
+      2368046060
+(1 row)
+
+select spqrhash_city32(4344669259278930425);
+ spqrhash_city32 
+-----------------
+      4272211872
+(1 row)
+
+select spqrhash_city32(8909627104182058137);
+ spqrhash_city32 
+-----------------
+      2789608777
+(1 row)
+
+select spqrhash_city32(7902957914082648054);
+ spqrhash_city32 
+-----------------
+      4062062375
+(1 row)
+
+select spqrhash_city32(832245700077964381);
+ spqrhash_city32 
+-----------------
+      3628964873
+(1 row)
+
+select spqrhash_city32(2705026907101862852);
+ spqrhash_city32 
+-----------------
+      2385445431
+(1 row)
+
+select spqrhash_city32(4336188393583460281);
+ spqrhash_city32 
+-----------------
+      3194328448
+(1 row)
+
+select spqrhash_city32(2960763009154764557);
+ spqrhash_city32 
+-----------------
+      3745397724
+(1 row)
+
+select spqrhash_city32(1985492705838292944);
+ spqrhash_city32 
+-----------------
+      2699841035
+(1 row)
+
+select spqrhash_city32(4543427677903927192);
+ spqrhash_city32 
+-----------------
+      1686300332
+(1 row)
+
+select spqrhash_city32(4707364376296195847);
+ spqrhash_city32 
+-----------------
+      3181598040
+(1 row)
+
+select spqrhash_city32(3026616949836401523);
+ spqrhash_city32 
+-----------------
+      3857498042
+(1 row)
+
+select spqrhash_city32(1297483549152000975);
+ spqrhash_city32 
+-----------------
+      2648516990
+(1 row)
+
+select spqrhash_city32(7079218350774726490);
+ spqrhash_city32 
+-----------------
+      3179996759
+(1 row)
+
+select spqrhash_city32(6996192304222976829);
+ spqrhash_city32 
+-----------------
+      2881120925
+(1 row)
+
+select spqrhash_city32(265497005906305514);
+ spqrhash_city32 
+-----------------
+       211062828
+(1 row)
+
+select spqrhash_city32(735558621986299942);
+ spqrhash_city32 
+-----------------
+      1456064615
+(1 row)
+
+select spqrhash_city32(6107937469449237207);
+ spqrhash_city32 
+-----------------
+      2476623032
+(1 row)
+
+select spqrhash_city32(8099496470729389445);
+ spqrhash_city32 
+-----------------
+        77333696
+(1 row)
+
+select spqrhash_city32(4896022869020408440);
+ spqrhash_city32 
+-----------------
+      3326511519
+(1 row)
+
+select spqrhash_city32(959966045215963511);
+ spqrhash_city32 
+-----------------
+      3547450099
+(1 row)
+
+select spqrhash_city32(7944923148893336673);
+ spqrhash_city32 
+-----------------
+      2449177449
+(1 row)
+
+select spqrhash_city32(6569055009192767732);
+ spqrhash_city32 
+-----------------
+       396309619
+(1 row)
+
+select spqrhash_city32(6615063568348538450);
+ spqrhash_city32 
+-----------------
+       278795118
+(1 row)
+
+select spqrhash_city32(917360762014739209);
+ spqrhash_city32 
+-----------------
+      2625157593
+(1 row)
+
+select spqrhash_city32(3798780481236089053);
+ spqrhash_city32 
+-----------------
+       749206395
+(1 row)
+
+select spqrhash_city32(2201011210141692247);
+ spqrhash_city32 
+-----------------
+      2739119965
+(1 row)
+
+select spqrhash_city32(1186788162516384322);
+ spqrhash_city32 
+-----------------
+      1171318002
+(1 row)
+
+select spqrhash_city32(3762635145119225597);
+ spqrhash_city32 
+-----------------
+      3472635946
+(1 row)
+
+select spqrhash_city32(249296331327309881);
+ spqrhash_city32 
+-----------------
+      1941578141
+(1 row)
+
+select spqrhash_city32(8267387908467935547);
+ spqrhash_city32 
+-----------------
+      3607499351
+(1 row)
+
+select spqrhash_city32(3991303214203724900);
+ spqrhash_city32 
+-----------------
+      1773373420
+(1 row)
+
+select spqrhash_city32(6804119546284619678);
+ spqrhash_city32 
+-----------------
+      2279378475
+(1 row)
+
+select spqrhash_city32(2631725167696300035);
+ spqrhash_city32 
+-----------------
+      2200742758
+(1 row)
+
+select spqrhash_city32(3469217302329500804);
+ spqrhash_city32 
+-----------------
+      3845820863
+(1 row)
+
+select spqrhash_city32(8454536595927766643);
+ spqrhash_city32 
+-----------------
+      1356225381
+(1 row)
+
+select spqrhash_city32(8342060007789022427);
+ spqrhash_city32 
+-----------------
+      1575812528
+(1 row)
+
+select spqrhash_city32(5379902417659683780);
+ spqrhash_city32 
+-----------------
+       882925076
+(1 row)
+
+select spqrhash_city32(677946266857730136);
+ spqrhash_city32 
+-----------------
+        18323944
+(1 row)
+
+select spqrhash_city32(4551232611982814961);
+ spqrhash_city32 
+-----------------
+      1261007429
+(1 row)
+
+select spqrhash_city32(6380756114716864405);
+ spqrhash_city32 
+-----------------
+       306821247
+(1 row)
+
+select spqrhash_city32(1131405957055322863);
+ spqrhash_city32 
+-----------------
+      4192772270
+(1 row)
+
+select spqrhash_city32(2759462569959737557);
+ spqrhash_city32 
+-----------------
+       935879416
+(1 row)
+
+select spqrhash_city32(407677783070971832);
+ spqrhash_city32 
+-----------------
+       190411481
+(1 row)
+
+select spqrhash_city32(1849835844116572596);
+ spqrhash_city32 
+-----------------
+      2173958208
+(1 row)
+
+select spqrhash_city32(6292636422852516053);
+ spqrhash_city32 
+-----------------
+      3573282591
+(1 row)
+
+select spqrhash_city32(7791333106033357223);
+ spqrhash_city32 
+-----------------
+      1514795897
+(1 row)
+
+select spqrhash_city32(5222799602868969255);
+ spqrhash_city32 
+-----------------
+      1860601089
+(1 row)
+
+select spqrhash_city32(1923051513344951105);
+ spqrhash_city32 
+-----------------
+      2910257293
+(1 row)
+
+select spqrhash_city32(3265711701752737332);
+ spqrhash_city32 
+-----------------
+      2146612933
+(1 row)
+
+select spqrhash_city32(7640132995553532790);
+ spqrhash_city32 
+-----------------
+      2597850379
+(1 row)
+
+select spqrhash_city32(3922867319734775587);
+ spqrhash_city32 
+-----------------
+      2080125688
+(1 row)
+
+select spqrhash_city32(4578578364664879241);
+ spqrhash_city32 
+-----------------
+      1437867981
+(1 row)
+
+select spqrhash_city32(8439236023540162871);
+ spqrhash_city32 
+-----------------
+      2178573631
+(1 row)
+
+select spqrhash_city32(1786224978426364966);
+ spqrhash_city32 
+-----------------
+      1452342106
+(1 row)
+
+select spqrhash_city32(4240929007629940205);
+ spqrhash_city32 
+-----------------
+       771876332
+(1 row)
+
+select spqrhash_city32(8831689756872584100);
+ spqrhash_city32 
+-----------------
+      3053038573
+(1 row)
+
+select spqrhash_city32(8004853329955898644);
+ spqrhash_city32 
+-----------------
+       503355867
+(1 row)
+
+select spqrhash_city32(6085470763043505150);
+ spqrhash_city32 
+-----------------
+      2455249855
+(1 row)
+
+select spqrhash_city32(8772902975980411889);
+ spqrhash_city32 
+-----------------
+      3137486277
+(1 row)
+
+select spqrhash_city32(8397753991841294909);
+ spqrhash_city32 
+-----------------
+      1641074452
+(1 row)
+
+select spqrhash_city32(6244785724121415616);
+ spqrhash_city32 
+-----------------
+      3726086321
+(1 row)
+
+select spqrhash_city32(1825981535468174587);
+ spqrhash_city32 
+-----------------
+       128304290
+(1 row)
+
+select spqrhash_city32(6377167120362707799);
+ spqrhash_city32 
+-----------------
+       172761796
+(1 row)
+
+select spqrhash_city32(7389393455900104503);
+ spqrhash_city32 
+-----------------
+      1999205758
+(1 row)
+
+select spqrhash_city32(1293898859189401711);
+ spqrhash_city32 
+-----------------
+       675164150
+(1 row)
+
+select spqrhash_city32(1432229895592045063);
+ spqrhash_city32 
+-----------------
+      1633348409
+(1 row)
+
+select spqrhash_city32(4666468084334218483);
+ spqrhash_city32 
+-----------------
+      3824877668
+(1 row)
+
+select spqrhash_city32(3224080763214119227);
+ spqrhash_city32 
+-----------------
+      4059053334
+(1 row)
+
+select spqrhash_city32(1642155899381109070);
+ spqrhash_city32 
+-----------------
+       944520448
+(1 row)
+
+select spqrhash_city32(6056430952240425259);
+ spqrhash_city32 
+-----------------
+      2242622283
+(1 row)
+
+select spqrhash_city32(2213007389966994956);
+ spqrhash_city32 
+-----------------
+      1936489653
+(1 row)
+
+select spqrhash_city32(728483287327217330);
+ spqrhash_city32 
+-----------------
+      3331325140
+(1 row)
+
+select spqrhash_city32(1598489293715183098);
+ spqrhash_city32 
+-----------------
+      2448733492
+(1 row)
+

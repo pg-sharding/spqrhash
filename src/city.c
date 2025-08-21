@@ -258,3 +258,34 @@ static inline uint64_t Hash128to64(uint64_t u, uint64_t v)
 void hlib_city32_str(const void *s, size_t len, uint64_t *io) {
     io[0] = CityHash32(s, len);
 }
+
+/* Copied from go encoding/binary PutUVarInt func */
+static int put_uvarint(uint8_t *buf, uint64_t n) {
+	int i = 0;
+	while (n >= 0x80) {
+		buf[i] = (uint8_t)(n) | 0x80;
+		n >>= 7;
+		i++;
+	}
+	buf[i] = (uint8_t)(n);
+	return i+1;
+}
+
+uint64_t hlib_city32_int64(uint64_t input_data)
+{
+    const int ENCODING_BYTES_BIG = 10;
+    const int ENCODING_BYTES = 8;
+    const uint64_t BOUND = 1UL << 56;
+    size_t len;
+    uint8_t *key;
+    int sz = ENCODING_BYTES;
+    if (input_data >= BOUND) {
+    sz = ENCODING_BYTES_BIG;
+    }
+    key = alloca(sz * sizeof *key);
+    len = sz;
+    memset(key, 0, len);
+    put_uvarint(key, input_data);
+    return CityHash32(key, len);
+}
+

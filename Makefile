@@ -20,8 +20,8 @@ REGRESS_OPTS = --inputdir=test
 
 # different vars for extension and plain module
 
-Regress_noext = test_init_noext test_int8_murmur test_string_murmur test_string_city32
-Regress_ext   = test_init_ext   test_int8_murmur test_string_murmur test_string_city32
+Regress_noext = test_init_noext test_int8_murmur test_string_murmur test_string_city32 test_int8_city32
+Regress_ext   = test_init_ext   test_int8_murmur test_string_murmur test_string_city32 test_int8_city32
 
 Data_noext = sql/spqrhash.sql sql/uninstall_spqrhash.sql
 Data_ext = sql/spqrhash--1.0.sql sql/spqrhash--unpackaged--1.0.sql

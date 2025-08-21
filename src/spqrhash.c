@@ -10,6 +10,7 @@ PG_MODULE_MAGIC;
 PG_FUNCTION_INFO_V1(spqr_hash_murmur3_str);
 PG_FUNCTION_INFO_V1(spqr_hash_murmur3_int64);
 PG_FUNCTION_INFO_V1(spqr_hash_city32_str);
+PG_FUNCTION_INFO_V1(spqr_hash_city32_int64);
 
 /*
  * Public functions
@@ -66,4 +67,13 @@ spqr_hash_city32_str(PG_FUNCTION_ARGS)
 	PG_FREE_IF_COPY(data, 0);
 	PG_RETURN_INT64(io[0]);
 }
+
+Datum
+spqr_hash_city32_int64(PG_FUNCTION_ARGS)
+{
+	int64 data = PG_GETARG_INT64(0);
+
+	PG_RETURN_INT64(hlib_city32_int64((uint64_t)(data)));
+}
+
 
