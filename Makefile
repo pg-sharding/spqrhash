@@ -9,7 +9,7 @@ DISTNAME = spqrhash-$(EXT_VERSION)
 
 # module description
 MODULE_big = spqrhash
-SRCS = src/spqrhash.c src/murmur3.c
+SRCS = src/spqrhash.c src/murmur3.c src/city.c
 OBJS = $(SRCS:.c=.o)
 EXTENSION = $(MODULE_big)
 
