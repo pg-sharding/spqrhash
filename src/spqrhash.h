@@ -28,18 +28,12 @@
 /* how many values in io array will be used, max */
 #define MAX_IO_VALUES 2
 
-/* hash function signatures */
-typedef void     (*hlib_str_hash_fn)(const void *data, size_t len, uint64_t *io);
-typedef uint64_t (*hlib_int64_hash_fn)(uint64_t data);
-
 /* string hashes */
 void hlib_murmur3(const void *data, size_t len, uint64_t *io);
 
 /* integer hashes */
 uint64_t hlib_murmur3_int64(uint64_t data);
 
-Datum pg_hash64_string(PG_FUNCTION_ARGS);
-Datum pg_hash_int64(PG_FUNCTION_ARGS);
 Datum spqr_hash_murmur3_str(PG_FUNCTION_ARGS);
 Datum spqr_hash_murmur3_int64(PG_FUNCTION_ARGS);
 
