@@ -286,6 +286,7 @@ uint64_t hlib_city32_int64(uint64_t input_data)
     len = sz;
     memset(key, 0, len);
     put_uvarint(key, input_data);
-    return CityHash32(key, len);
+    uint32_t res = CityHash32(key, len);
+    return (uint64_t)(res);
 }
 

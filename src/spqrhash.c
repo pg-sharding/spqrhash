@@ -73,7 +73,8 @@ spqr_hash_city32_int64(PG_FUNCTION_ARGS)
 {
 	int64 data = PG_GETARG_INT64(0);
 
-	PG_RETURN_INT64(hlib_city32_int64((uint64_t)(data)));
+	uint64_t res = hlib_city32_int64((uint64_t)(data));
+	PG_RETURN_INT64(res);
 }
 
 
