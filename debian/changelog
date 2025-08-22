@@ -1,3 +1,9 @@
+spqrhash (1.1) stable; urgency=medium
+
+  * Add city32 hashing
+
+ -- Yury Frolov <ein-krebs@yandex-team.ru>  Fri, 22 Aug 2025 15:14:38 +0500
+
 spqrhash (1.0) stable; urgency=medium
 
   * Initial release
