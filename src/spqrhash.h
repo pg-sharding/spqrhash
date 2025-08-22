@@ -34,6 +34,7 @@ void hlib_city32_str(const void *data, size_t len, uint64_t *io);
 
 /* integer hashes */
 uint64_t hlib_murmur3_int64(uint64_t data);
+uint64_t hlib_city32_int64(uint64_t data);
 
 Datum spqr_hash_murmur3_str(PG_FUNCTION_ARGS);
 Datum spqr_hash_murmur3_int64(PG_FUNCTION_ARGS);
