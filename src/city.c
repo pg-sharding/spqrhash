@@ -46,7 +46,7 @@
 // compromising on hash quality.
 
 #include "spqrhash.h"
-#include <byteswap.h>
+#include "port/pg_bswap.h"
 
 #if defined __GNUC__ && __GNUC__ >= 3
 #define HAVE_BUILTIN_EXPECT 1
@@ -61,8 +61,13 @@ typedef struct city_uint128 city_uint128;
 static inline uint64_t Uint128Low64(const city_uint128 x) { return x.first; }
 static inline uint64_t Uint128High64(const city_uint128 x) { return x.second; }
 
-#define uint32_in_expected_order(x) le32toh(x)
-#define uint64_in_expected_order(x) le64toh(x)
+#ifdef WORDS_BIGENDIAN
+#define uint32_in_expected_order(x) pg_bswap32(x)
+#define uint64_in_expected_order(x) pg_bswap64(x)
+#else
+#define uint32_in_expected_order(x) (x)
+#define uint64_in_expected_order(x) (x)
+#endif
 
 #if !defined(LIKELY)
 #if HAVE_BUILTIN_EXPECT
@@ -213,9 +218,9 @@ static uint32_t CityHash32(const char *s, size_t len) {
     h = Rotate32(h, 19);
     h = h * 5 + 0xe6546b64;
     g ^= a4;
-    g = bswap_32(g) * 5;
+    g = pg_bswap32(g) * 5;
     h += a4 * 5;
-    h = bswap_32(h);
+    h = pg_bswap32(h);
     f += a0;
     tmp = f;
     f = g;
