@@ -4,11 +4,13 @@
 #include <access/htup_details.h>
 
 #include "utils/builtins.h"
+#include "utils/array.h"
 
 PG_MODULE_MAGIC;
 
 PG_FUNCTION_INFO_V1(spqr_hash_murmur3_str);
 PG_FUNCTION_INFO_V1(spqr_hash_murmur3_int64);
+PG_FUNCTION_INFO_V1(spqr_hash_murmur3_int64_arr);
 PG_FUNCTION_INFO_V1(spqr_hash_city32_str);
 PG_FUNCTION_INFO_V1(spqr_hash_city32_int64);
 
@@ -44,6 +46,38 @@ spqr_hash_murmur3_int64(PG_FUNCTION_ARGS)
 	int64 data = PG_GETARG_INT64(0);
 
 	PG_RETURN_INT64(hlib_murmur3_int64((uint64_t)(data)));
+}
+
+Datum
+spqr_hash_murmur3_int64_arr(PG_FUNCTION_ARGS)
+{
+	#ifdef HLIB_UNALIGNED_READ_OK
+	ArrayType *input_arr = PG_GETARG_ARRAYTYPE_PP(0);
+	#else
+	ArrayType *input_arr = PG_GETARG_ARRAYTYPE_P(0);
+	#endif
+	
+	uint64_t io[MAX_IO_VALUES];
+
+	memset(io, 0, sizeof(io));
+
+	size_t sz = VARSIZE_ANY_EXHDR(input_arr);
+
+	// TODO: put numbers to data
+	uint8_t *data;
+	data = alloca(sz * sizeof *data);
+
+	uint64_t *arr_internal = ARR_DATA_PTR(input_arr);
+	for (size_t i = 0; i < sz; i++) {
+		uint64_t el = *(arr_internal+i*sizeof(uint64_t));
+		uint64_t hash = hlib_murmur3_int64(el);
+		put_uvarint(data+i*sizeof(uint64_t), hash);
+	}
+	
+	hlib_murmur3(VARDATA_ANY(data), VARSIZE_ANY_EXHDR(data), io);
+
+	PG_FREE_IF_COPY(data, 0);
+	PG_RETURN_INT64(io[0]);
 }
 
 Datum
