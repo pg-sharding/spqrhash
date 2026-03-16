@@ -51,23 +51,25 @@ spqr_hash_murmur3_int64(PG_FUNCTION_ARGS)
 Datum
 spqr_hash_murmur3_int64_arr(PG_FUNCTION_ARGS)
 {
-	#ifdef HLIB_UNALIGNED_READ_OK
-	ArrayType *input_arr = PG_GETARG_ARRAYTYPE_PP(0);
-	#else
-	ArrayType *input_arr = PG_GETARG_ARRAYTYPE_P(0);
-	#endif
-	
+	size_t sz;
 	uint64_t io[MAX_IO_VALUES];
+	uint8_t *data;
+	char *arr_internal;
+	// #ifdef HLIB_UNALIGNED_READ_OK
+	// ArrayType *input_arr = PG_GETARG_ARRAYTYPE_PP(0);
+	// #else
+	ArrayType *input_arr = PG_GETARG_ARRAYTYPE_P(0);
+	// #endif
+	
 
 	memset(io, 0, sizeof(io));
 
-	size_t sz = VARSIZE_ANY_EXHDR(input_arr);
+	sz = VARSIZE_ANY_EXHDR(input_arr);
 
 	// TODO: put numbers to data
-	uint8_t *data;
 	data = alloca(sz * sizeof *data);
 
-	uint64_t *arr_internal = ARR_DATA_PTR(input_arr);
+	arr_internal = ARR_DATA_PTR(input_arr);
 	for (size_t i = 0; i < sz; i++) {
 		uint64_t el = *(arr_internal+i*sizeof(uint64_t));
 		uint64_t hash = hlib_murmur3_int64(el);
@@ -108,4 +110,15 @@ spqr_hash_city32_int64(PG_FUNCTION_ARGS)
 	PG_RETURN_INT64(hlib_city32_int64((uint64_t)(PG_GETARG_INT64(0))));
 }
 
+/* Copied from go encoding/binary PutUVarInt func */
+static int put_uvarint(uint8_t *buf, uint64_t n) {
+	int i = 0;
+	while (n >= 0x80) {
+		buf[i] = (uint8_t)(n) | 0x80;
+		n >>= 7;
+		i++;
+	}
+	buf[i] = (uint8_t)(n);
+	return i+1;
+}
 
