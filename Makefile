@@ -24,7 +24,7 @@ Regress_noext = test_init_noext test_int8_murmur test_string_murmur test_string_
 Regress_ext   = test_init_ext   test_int8_murmur test_string_murmur test_string_city32 test_string_varlen_city32 test_int8_city32
 
 Data_noext = sql/spqrhash.sql sql/uninstall_spqrhash.sql
-Data_ext = sql/spqrhash--1.0.sql sql/spqrhash--unpackaged--1.0.sql
+Data_ext = sql/spqrhash--1.0.sql sql/spqrhash--1.0-1.1.sql sql/spqrhash--1.1.sql sql/spqrhash--unpackaged--1.0.sql sql/spqrhash--unpackaged--1.0-1.1.sql sql/spqrhash--unpackaged--1.1.sql
 
 # Work around PGXS deficiencies - switch variables based on
 # whether extensions are supported.
