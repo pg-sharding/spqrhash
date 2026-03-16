@@ -18,7 +18,7 @@ Functions
 ---------
 
 spqrhash_murmur3
-~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
 
 ::
   spqrhash_murmur3(text) RETURNS int8

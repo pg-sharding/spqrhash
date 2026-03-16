@@ -34,9 +34,16 @@ DATA = $(Data_$(PgHaveExt))
 REGRESS = $(Regress_$(PgHaveExt))
 
 
+ifdef USE_PGXS
 # launch PGXS
 PGXS = $(shell $(PG_CONFIG) --pgxs)
 include $(PGXS)
+else
+subdir = contrib/spqrhash
+top_builddir = ../..
+include $(top_builddir)/src/Makefile.global
+include $(top_srcdir)/contrib/contrib-global.mk
+endif
 
 install: $(DOCS)
 

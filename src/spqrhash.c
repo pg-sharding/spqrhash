@@ -51,34 +51,32 @@ spqr_hash_murmur3_int64(PG_FUNCTION_ARGS)
 Datum
 spqr_hash_murmur3_int64_arr(PG_FUNCTION_ARGS)
 {
-	size_t sz;
+	size_t array_size;
+	size_t data_size;
 	uint64_t io[MAX_IO_VALUES];
 	uint8_t *data;
-	char *arr_internal;
-	// #ifdef HLIB_UNALIGNED_READ_OK
-	// ArrayType *input_arr = PG_GETARG_ARRAYTYPE_PP(0);
-	// #else
+	int64 *elems;
 	ArrayType *input_arr = PG_GETARG_ARRAYTYPE_P(0);
-	// #endif
 	
 
 	memset(io, 0, sizeof(io));
 
-	sz = VARSIZE_ANY_EXHDR(input_arr);
 
-	// TODO: put numbers to data
-	data = alloca(sz * sizeof *data);
+	elems = (int32 *) ARR_DATA_PTR(input_arr);
+	array_size = ArrayGetNItems(ARR_NDIM(input_arr),
+						ARR_DIMS(input_arr));
 
-	arr_internal = ARR_DATA_PTR(input_arr);
-	for (size_t i = 0; i < sz; i++) {
-		uint64_t el = *(arr_internal+i*sizeof(uint64_t));
-		uint64_t hash = hlib_murmur3_int64(el);
-		put_uvarint(data+i*sizeof(uint64_t), hash);
+	// TODO: check number size
+	data_size = array_size * 8;
+	data = alloca(data_size * sizeof *data);
+	memset(data, 0, array_size * 8);
+	for (size_t i = 0; i < array_size; i++) {
+		uint64_t el = *(elems+i);
+		put_uvarint(data+i*sizeof(uint64_t), el);
 	}
 	
-	hlib_murmur3(VARDATA_ANY(data), VARSIZE_ANY_EXHDR(data), io);
+	hlib_murmur3(data, data_size, io);
 
-	PG_FREE_IF_COPY(data, 0);
 	PG_RETURN_INT64(io[0]);
 }
 
