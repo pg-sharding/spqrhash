@@ -45,5 +45,6 @@ Datum spqr_hash_city32_int64_arr(PG_FUNCTION_ARGS);
 
 static int put_uvarint(uint8_t *buf, uint64_t n);
 
+
 #endif
 

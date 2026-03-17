@@ -52,27 +52,45 @@ Datum
 spqr_hash_murmur3_int64_arr(PG_FUNCTION_ARGS)
 {
 	size_t array_size;
-	size_t data_size;
+	size_t data_size = 0;
+	size_t data_ptr = 0;
 	uint64_t io[MAX_IO_VALUES];
 	uint8_t *data;
 	int64 *elems;
 	ArrayType *input_arr = PG_GETARG_ARRAYTYPE_P(0);
+	const int ENCODING_BYTES_BIG = 10;
+    const int ENCODING_BYTES = 8;
+    const uint64_t BOUND = 1UL << 56;
 	
 
 	memset(io, 0, sizeof(io));
 
 
-	elems = (int32 *) ARR_DATA_PTR(input_arr);
+	elems = (int64 *) ARR_DATA_PTR(input_arr);
 	array_size = ArrayGetNItems(ARR_NDIM(input_arr),
 						ARR_DIMS(input_arr));
-
-	// TODO: check number size
-	data_size = array_size * 8;
-	data = alloca(data_size * sizeof *data);
-	memset(data, 0, array_size * 8);
+		
 	for (size_t i = 0; i < array_size; i++) {
 		uint64_t el = *(elems+i);
-		put_uvarint(data+i*sizeof(uint64_t), el);
+		if (el < BOUND) {
+			data_size += ENCODING_BYTES;
+		}
+		else {
+			data_size += ENCODING_BYTES_BIG;
+		}
+	}
+
+	data = alloca(data_size * sizeof *data);
+	memset(data, 0, data_size);
+	for (size_t i = 0; i < array_size; i++) {
+		uint64_t el = *(elems+i);
+		put_uvarint(data+data_ptr, el);
+		if (el < BOUND) {
+			data_ptr += ENCODING_BYTES;
+		}
+		else {
+			data_ptr += ENCODING_BYTES_BIG;
+		}
 	}
 	
 	hlib_murmur3(data, data_size, io);
