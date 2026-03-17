@@ -1,3 +1,4 @@
+CREATE EXTENSION spqrhash;
 SELECT spqrhash_murmur3(ARRAY[30424691992750870, 30884621351724178]);
  spqrhash_murmur3 
 ------------------
@@ -11998,3 +11999,4 @@ SELECT spqrhash_murmur3(ARRAY[3932786718008776252, 3005522854728736797]);
        1500406200
 (1 row)
 
+DROP EXTENSION spqrhash;

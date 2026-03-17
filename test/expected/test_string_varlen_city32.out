@@ -1,3 +1,4 @@
+CREATE EXTENSION spqrhash;
 select spqrhash_city32('4');
  spqrhash_city32 
 -----------------
@@ -4498,3 +4499,4 @@ select spqrhash_city32('45678460004821213091');
       3411419807
 (1 row)
 
+DROP EXTENSION spqrhash;

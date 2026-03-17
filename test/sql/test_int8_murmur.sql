@@ -1,3 +1,4 @@
+CREATE EXTENSION spqrhash;
 select spqrhash_murmur3(4056682298193261619);
 select spqrhash_murmur3(6575587962016455849);
 select spqrhash_murmur3(3358548692793832491);
@@ -998,3 +999,4 @@ select spqrhash_murmur3(7193215261837922244);
 select spqrhash_murmur3(414630264709304037);
 select spqrhash_murmur3(6874303211151558447);
 select spqrhash_murmur3(9139140211881315093);
+DROP EXTENSION spqrhash;
