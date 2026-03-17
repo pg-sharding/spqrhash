@@ -13,6 +13,7 @@ PG_FUNCTION_INFO_V1(spqr_hash_murmur3_int64);
 PG_FUNCTION_INFO_V1(spqr_hash_murmur3_int64_arr);
 PG_FUNCTION_INFO_V1(spqr_hash_city32_str);
 PG_FUNCTION_INFO_V1(spqr_hash_city32_int64);
+PG_FUNCTION_INFO_V1(spqr_hash_city32_int64_arr);
 
 /*
  * Public functions
