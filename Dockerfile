@@ -32,7 +32,7 @@ RUN echo 'build-user ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
 USER build-user
 WORKDIR /home/build-user
 
-RUN make clean && sudo make install
+RUN make USE_PGXS=1 clean && sudo make USE_PGXS=1 install
 RUN sudo chmod 777 -R /home/build-user
 
 ENTRYPOINT ["./test/run_tests.sh"]

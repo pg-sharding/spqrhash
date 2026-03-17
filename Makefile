@@ -20,11 +20,11 @@ REGRESS_OPTS = --inputdir=test
 
 # different vars for extension and plain module
 
-Regress_noext = test_init_noext test_int8_murmur test_string_murmur test_string_city32 test_string_varlen_city32 test_int8_city32
-Regress_ext   = test_init_ext   test_int8_murmur test_string_murmur test_string_city32 test_string_varlen_city32 test_int8_city32
+Regress_noext = test_init_noext test_int8_murmur test_string_murmur test_int8_arr_murmur test_int8_arr_murmur3_many_args test_string_city32 test_string_varlen_city32 test_int8_city32 test_int8_arr_city32 test_int8_arr_city32_many_args
+Regress_ext   = test_init_ext   test_int8_murmur test_string_murmur test_int8_arr_murmur test_int8_arr_murmur3_many_args test_string_city32 test_string_varlen_city32 test_int8_city32 test_int8_arr_city32 test_int8_arr_city32_many_args
 
 Data_noext = sql/spqrhash.sql sql/uninstall_spqrhash.sql
-Data_ext = sql/spqrhash--1.0.sql sql/spqrhash--unpackaged--1.0.sql
+Data_ext = sql/spqrhash--1.0.sql sql/spqrhash--1.0-1.1.sql sql/spqrhash--1.1.sql sql/spqrhash--unpackaged--1.0.sql sql/spqrhash--unpackaged--1.0-1.1.sql sql/spqrhash--unpackaged--1.1.sql
 
 # Work around PGXS deficiencies - switch variables based on
 # whether extensions are supported.
@@ -34,9 +34,16 @@ DATA = $(Data_$(PgHaveExt))
 REGRESS = $(Regress_$(PgHaveExt))
 
 
+ifdef USE_PGXS
 # launch PGXS
 PGXS = $(shell $(PG_CONFIG) --pgxs)
 include $(PGXS)
+else
+subdir = contrib/spqrhash
+top_builddir = ../..
+include $(top_builddir)/src/Makefile.global
+include $(top_srcdir)/contrib/contrib-global.mk
+endif
 
 install: $(DOCS)
 
