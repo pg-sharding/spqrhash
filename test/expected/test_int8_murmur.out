@@ -1,3 +1,4 @@
+CREATE EXTENSION spqrhash;
 select spqrhash_murmur3(4056682298193261619);
  spqrhash_murmur3 
 ------------------
@@ -5998,3 +5999,4 @@ select spqrhash_murmur3(9139140211881315093);
        1718579060
 (1 row)
 
+DROP EXTENSION spqrhash;

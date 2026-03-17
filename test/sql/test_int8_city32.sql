@@ -1,3 +1,4 @@
+CREATE EXTENSION spqrhash;
 select spqrhash_city32(22629510212613551);
 select spqrhash_city32(37149397305185177);
 select spqrhash_city32(5139374430477281);
@@ -998,3 +999,4 @@ select spqrhash_city32(102612966415926334);
 select spqrhash_city32(7838081810215264627);
 select spqrhash_city32(6377765312970638135);
 select spqrhash_city32(902705414846364558);
+DROP EXTENSION spqrhash;

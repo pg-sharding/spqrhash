@@ -1,3 +1,3 @@
-
 CREATE EXTENSION spqrhash;
+DROP EXTENSION spqrhash;
 

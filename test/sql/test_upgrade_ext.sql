@@ -1,0 +1,5 @@
+CREATE EXTENSION spqrhash VERSION '1.0';
+
+ALTER EXTENSION spqrhash UPDATE TO '1.1';
+
+DROP EXTENSION spqrhash;
