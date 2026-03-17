@@ -23,5 +23,5 @@ jobs:
 
       - name: Run tests
         run: |
-            make pg_version=${{ matrix.version }} codename=${{ matrix.os-version }} regress
+            make pg_version=${{ matrix.version }} codename=${{ matrix.os-version }} USE_PGXS=1 regress
 
