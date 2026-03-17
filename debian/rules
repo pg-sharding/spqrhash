@@ -21,7 +21,7 @@ override_dh_auto_install:
 	mkdir -p $(CURDIR)/debian/tmp
 	for v in $$($(PG_BUILDEXT) supported-versions . ) ; do \
 		echo "### Building for PostgreSQL $${v}" && \
-		$(MAKE) clean install \
+		$(MAKE) USE_PGXS=1 clean install \
 			PG_CONFIG=/usr/lib/postgresql/$${v}/bin/pg_config \
 			DESTDIR=$(CURDIR)/debian/tmp \
 		|| exit 1 ; \
