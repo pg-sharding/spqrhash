@@ -66,3 +66,4 @@ log
 # build tmp files
 debian/*debhelper*
 build-*
+postgresql-*-spqrhash
