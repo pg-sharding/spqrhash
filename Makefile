@@ -2,17 +2,10 @@
 PG_CONFIG = pg_config
 RST2HTML = rst2html
 
-
-ifdef USE_PGXS
-# launch PGXS
-PGXS = $(shell $(PG_CONFIG) --pgxs)
-include $(PGXS)
-else
-subdir = contrib/spqrhash
-top_builddir = ../..
-include $(top_builddir)/src/Makefile.global
-include $(top_srcdir)/contrib/contrib-global.mk
-endif
+# load version
+include spqrhash.control
+EXT_VERSION = $(patsubst '%',%,$(default_version))
+DISTNAME = spqrhash-$(EXT_VERSION)
 
 # module description
 MODULE_big = spqrhash
@@ -40,6 +33,17 @@ PgHaveExt = $(if $(filter 8.% 9.0,$(PgMajor)),noext,ext)
 DATA = $(Data_$(PgHaveExt))
 REGRESS = $(Regress_$(PgHaveExt))
 
+
+ifdef USE_PGXS
+# launch PGXS
+PGXS = $(shell $(PG_CONFIG) --pgxs)
+include $(PGXS)
+else
+subdir = contrib/spqrhash
+top_builddir = ../..
+include $(top_builddir)/src/Makefile.global
+include $(top_srcdir)/contrib/contrib-global.mk
+endif
 
 install: $(DOCS)
 
@@ -69,7 +73,9 @@ debclean: clean
 	$(MAKE) -f debian/rules realclean
 	rm -f lib* spqrhash.so* spqrhash.a
 	rm -rf .deps
-	rm -rf build-*
+
+tgz:
+	git archive --prefix=$(DISTNAME)/ HEAD | gzip -9 > $(DISTNAME).tar.gz
 
 pg_version?=16
 codename?=jammy
