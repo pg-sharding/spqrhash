@@ -67,3 +67,5 @@ log
 debian/*debhelper*
 build-*
 postgresql-*-spqrhash
+debian/postgresql-*-spqrhash.substvars
+debian/files
