@@ -12,23 +12,14 @@ export PG_UPDATECONTROL=1
 include /usr/share/postgresql-common/pgxs_debian_control.mk
 
 override_dh_auto_clean:
-	for v in $$($(PG_BUILDEXT) supported-versions . ) ; do \
-		rm -rf debian/postgresql-spqrhash-$${v}; \
-	done
-	dh_auto_clean -- clean || exit 0
+	pg_buildext clean build-%v
+	rm -rf spqrhash
 
 override_dh_auto_build:
-	make USE_PGXS=1
+	pg_buildext build build-%v
 
 override_dh_auto_install: 
-	mkdir -p $(CURDIR)/debian/tmp
-	for v in $$($(PG_BUILDEXT) supported-versions . ) ; do \
-		echo "### Building for PostgreSQL $${v}" && \
-		$(MAKE) USE_PGXS=1 clean install \
-			PG_CONFIG=/usr/lib/postgresql/$${v}/bin/pg_config \
-			DESTDIR=$(CURDIR)/debian/tmp \
-		|| exit 1 ; \
-	done
+	PG_SUPPORTED_VERSIONS=installed pg_buildext install build-%v postgresql-%v-spqrhash
 
 %:
 	dh $@
