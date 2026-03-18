@@ -62,3 +62,10 @@ regression.diffs
 .vscode
 debian/control
 log
+
+# build tmp files
+debian/*debhelper*
+build-*
+postgresql-*-spqrhash
+debian/postgresql-*-spqrhash.substvars
+debian/files
