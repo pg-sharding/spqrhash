@@ -62,3 +62,7 @@ regression.diffs
 .vscode
 debian/control
 log
+
+# build tmp files
+debian/*debhelper*
+build-*
