@@ -19,6 +19,7 @@ override_dh_auto_build:
 	pg_buildext build build-%v
 
 override_dh_auto_install: 
+	make html
 	PG_SUPPORTED_VERSIONS=installed pg_buildext install build-%v postgresql-%v-spqrhash
 
 %:

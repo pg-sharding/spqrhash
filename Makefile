@@ -4,7 +4,7 @@ RST2HTML = rst2html
 
 # module description
 MODULE_big = spqrhash
-SRCS = src/spqrhash.c src/murmur3.c src/city.c
+SRCS = spqrhash.c murmur3.c city.c
 OBJS = $(SRCS:.c=.o)
 EXTENSION = $(MODULE_big)
 
