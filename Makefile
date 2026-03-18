@@ -28,7 +28,6 @@ PgHaveExt = $(if $(filter 8.% 9.0,$(PgMajor)),noext,ext)
 DATA = $(Data_$(PgHaveExt))
 REGRESS = $(Regress_$(PgHaveExt))
 
-
 ifdef USE_PGXS
 # launch PGXS
 PGXS = $(shell $(PG_CONFIG) --pgxs)
