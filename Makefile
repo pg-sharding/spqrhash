@@ -14,11 +14,6 @@ include $(top_builddir)/src/Makefile.global
 include $(top_srcdir)/contrib/contrib-global.mk
 endif
 
-# # load version
-# include spqrhash.control
-# EXT_VERSION = $(patsubst '%',%,$(default_version))
-# DISTNAME = spqrhash-$(EXT_VERSION)
-
 # module description
 MODULE_big = spqrhash
 SRCS = src/spqrhash.c src/murmur3.c src/city.c
