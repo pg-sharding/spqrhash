@@ -6000,4 +6000,3 @@ select spqrhash_murmur3('df77e5df-1b20-42f5-9b57-0ce2e58394fd');
 (1 row)
 
 DROP EXTENSION spqrhash;
-
