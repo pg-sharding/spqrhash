@@ -13,8 +13,7 @@ jobs:
 
     strategy:
       matrix:
-        os-version: ['jammy', 'noble']
-        version: ['13', '14', '15', '16', '17']
+        version: ['13', '14', '15', '16', '17', '18', '19beta3']
 
     steps:
 
@@ -23,5 +22,5 @@ jobs:
 
       - name: Run tests
         run: |
-            make pg_version=${{ matrix.version }} codename=${{ matrix.os-version }} USE_PGXS=1 regress
+            docker build . -f test/Dockerfile --tag spqrhash-test:1.0 --build-arg PG_VERSION=${{ matrix.version }} && docker run spqrhash-test:1.0
 
